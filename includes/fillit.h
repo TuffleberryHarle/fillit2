@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   fillit.h                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcanhand <mcanhand@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tharle <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/30 16:52:56 by galiza            #+#    #+#             */
-/*   Updated: 2019/05/15 14:59:51 by galiza           ###   ########.fr       */
+/*   Created: 2019/09/07 18:55:38 by tharle            #+#    #+#             */
+/*   Updated: 2019/09/07 18:58:08 by tharle           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,21 +18,21 @@
 
 typedef struct	s_figure
 {
-	int			*x;
-	int			*y;
+	unsigned			*x;
+	unsigned			*y;
 }				t_figure;
 
-char			**set_dots(int total);
-int				get_start_total(int count);
-t_list			*get_item(t_list *figures, int current_item);
-void			clear(t_list *figures, int total, char **map, char c);
-char			**solve_tetris(t_list *figure, int count);
+char			**set_dots(unsigned total);
+unsigned		get_start_total(unsigned count);
+t_list			*get_item(t_list *figures, unsigned current_item);
+void			clear(t_list *figures, unsigned total, char **map, char c);
+char			**solve_tetris(t_list *figure, unsigned count);
 void			print_map(char **map);
 void			clear_map(char **map);
-int				conections_sum(int *r, int *c, int *num, char **file);
+unsigned		conections_sum(unsigned *r, unsigned *c, unsigned *num, char **file);
 void			create_list(t_list **figures, t_figure *figur);
-void			correct_coords(t_figure *figur, t_list **figures, int *first);
-int				simple_check(char **line, int *text, char **figure, int *i);
+void			correct_coords(t_figure *figur, t_list **figures, unsigned *first);
+unsigned		simple_check(char **line, unsigned *text, char **figure, unsigned *i);
 void			clear_list(t_list **figures);
 
 #endif

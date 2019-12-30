@@ -69,8 +69,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mcanhand3.dir/srcs/main.c.o"
   "CMakeFiles/mcanhand3.dir/srcs/print_map.c.o"
   "CMakeFiles/mcanhand3.dir/srcs/solve_tetris.c.o"
-  "mcanhand3.pdb"
   "mcanhand3"
+  "mcanhand3.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   print_map.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcanhand <mcanhand@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tharle <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/02 16:58:45 by galiza            #+#    #+#             */
-/*   Updated: 2019/05/15 15:00:35 by galiza           ###   ########.fr       */
+/*   Created: 2019/09/07 18:55:38 by tharle            #+#    #+#             */
+/*   Updated: 2019/09/07 18:58:08 by tharle           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	print_map(char **map)
 {
-	int		i;
+	unsigned		i;
 
 	i = 0;
 	while (map[i])
@@ -26,7 +26,7 @@ void	print_map(char **map)
 
 void	clear_map(char **map)
 {
-	int		i;
+	unsigned		i;
 
 	i = 0;
 	while (map[i])

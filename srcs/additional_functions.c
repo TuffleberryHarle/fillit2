@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   additional_functions.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcanhand <mcanhand@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tharle <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/10 16:40:44 by mcanhand          #+#    #+#             */
-/*   Updated: 2019/05/20 17:53:12 by mcanhand         ###   ########.fr       */
+/*   Created: 2019/09/07 18:55:38 by tharle            #+#    #+#             */
+/*   Updated: 2019/09/07 18:58:08 by tharle           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-int		conections_sum(int *r, int *c, int *num, char **file)
+unsigned		conections_sum(unsigned *r, unsigned *c, unsigned *num, char **file)
 {
 	*c = 0;
 	*num = 0;
@@ -56,31 +56,31 @@ void	create_list(t_list **figures, t_figure *figur)
 	}
 }
 
-void	correct_coords(t_figure *figur, t_list **figures, int *first)
+void	correct_coords(t_figure *figur, t_list **figures, unsigned *first)
 {
-	int			r;
+	unsigned			r;
 
 	r = 0;
 	while (r < 4)
 	{
-		figur->x[r] = (int)figur->x[r] - (int)first[0];
-		figur->y[r] = (int)figur->y[r] - (int)first[1];
+		figur->x[r] = (unsigned)figur->x[r] - (unsigned)first[0];
+		figur->y[r] = (unsigned)figur->y[r] - (unsigned)first[1];
 		r++;
 	}
 	create_list(figures, figur);
 }
 
-int		simple_check(char **line, int *text, char **figure, int *i)
+unsigned	simple_check(char **line, unsigned *rows, char **figure, unsigned *i)
 {
-	static int tetr;
+	static unsigned tetr;
 
-	if (*text < 5 && tetr == 0)
+	if (*rows < 5 && tetr == 0)
 		tetr = 0;
 	if (!**line)
 	{
-		if (*text == 5)
+		if (*rows == 5)
 		{
-			*text = 1;
+			*rows = 1;
 			tetr++;
 			*i = 0;
 			return (1);
@@ -90,11 +90,11 @@ int		simple_check(char **line, int *text, char **figure, int *i)
 	if ((ft_strlen(*line)) == 4)
 	{
 		figure[*i] = ft_strdup(*line);
-		*text += 1;
+		*rows += 1;
 		free(*line);
 		*i += 1;
 	}
-	if (tetr >= 25 || *text > 5)
+	if (tetr >= 25 || *rows > 5)
 		return (0);
 	return (1);
 }

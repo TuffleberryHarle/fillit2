@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   add_func.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: galiza <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: tharle <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/13 18:41:00 by galiza            #+#    #+#             */
-/*   Updated: 2019/05/13 20:41:49 by galiza           ###   ########.fr       */
+/*   Created: 2019/09/07 18:55:38 by tharle            #+#    #+#             */
+/*   Updated: 2019/09/07 18:58:08 by tharle           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-void	clear(t_list *figures, int total, char **map, char c)
+void	clear(t_list *figures, unsigned total, char **map, char c)
 {
-	int x;
-	int y;
+	unsigned x;
+	unsigned y;
 
 	x = 0;
 	y = 0;
@@ -33,10 +33,10 @@ void	clear(t_list *figures, int total, char **map, char c)
 	}
 }
 
-t_list	*get_item(t_list *figures, int current_item)
+t_list	*get_item(t_list *figures, unsigned current_item)
 {
-	t_list	*tmp;
-	int		i;
+	t_list		*tmp;
+	unsigned	i;
 
 	i = 0;
 	tmp = figures;
@@ -48,10 +48,10 @@ t_list	*get_item(t_list *figures, int current_item)
 	return (tmp);
 }
 
-int		get_start_total(int count)
+unsigned		get_start_total(unsigned count)
 {
-	int		total;
-	int		i;
+	unsigned		total;
+	unsigned		i;
 
 	i = 2;
 	total = 0;
@@ -67,10 +67,10 @@ int		get_start_total(int count)
 	return (total);
 }
 
-char	**set_dots(int total)
+char	**set_dots(unsigned total)
 {
 	char	**map;
-	int		i;
+	unsigned		i;
 
 	i = 0;
 	map = (char**)malloc(sizeof(char*) * (total + 1));

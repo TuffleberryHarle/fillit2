@@ -3,23 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   solve_tetris.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mcanhand <mcanhand@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tharle <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/02 17:01:52 by galiza            #+#    #+#             */
-/*   Updated: 2019/05/13 20:54:28 by galiza           ###   ########.fr       */
+/*   Created: 2019/09/07 18:55:38 by tharle            #+#    #+#             */
+/*   Updated: 2019/09/07 18:58:08 by tharle           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "fillit.h"
 
-char	**g_map;
-char	*g_text;
-int		g_current_item;
-int		g_x1;
-int		g_y1;
-int		g_total;
-t_list	*g_tmp;
-int		g_i;
+char		**g_map;
+char		*g_text;
+unsigned	g_current_item;
+unsigned	g_x1;
+unsigned	g_y1;
+unsigned	g_total;
+t_list		*g_tmp;
+unsigned	g_i;
 
 void	next_dot(t_list *figures)
 {
@@ -43,13 +43,13 @@ void	next_dot(t_list *figures)
 		}
 		clear(figures, g_total, g_map, g_text[g_current_item]);
 		g_tmp = get_item(figures, g_current_item);
-		g_x1 += 1 - ((int*)((t_figure*)g_tmp->content)->x)[0];
+		g_x1 += 1 - ((unsigned*)((t_figure*)g_tmp->content)->x)[0];
 	}
 }
 
 void	increase_square(void)
 {
-	int		i;
+	unsigned		i;
 
 	i = 0;
 	if (g_x1 >= (g_total - 1) && g_y1 >= (g_total - 1) && g_current_item == 0)
@@ -86,8 +86,8 @@ void	check(t_list *figures)
 
 void	set_figure(void)
 {
-	int	x;
-	int	y;
+	unsigned	x;
+	unsigned	y;
 
 	x = 0;
 	y = 0;
@@ -95,8 +95,8 @@ void	set_figure(void)
 	{
 		while ((x - y) < 4 && g_i < 4)
 		{
-			if ((((int*)((t_figure*)g_tmp->content)->x)[g_i] == x) &&
-					(((int*)((t_figure*)g_tmp->content)->y)[g_i] == y))
+			if ((((unsigned*)((t_figure*)g_tmp->content)->x)[g_i] == x) &&
+					(((unsigned*)((t_figure*)g_tmp->content)->y)[g_i] == y))
 			{
 				if (!(y + g_y1 >= g_total || x + g_x1 >= g_total)
 					&& (g_map[y + g_y1][x + g_x1] == '.'))
@@ -112,7 +112,7 @@ void	set_figure(void)
 	}
 }
 
-char	**solve_tetris(t_list *figures, int count)
+char	**solve_tetris(t_list *figures, unsigned count)
 {
 	g_i = 0;
 	g_text = ft_strdup("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
