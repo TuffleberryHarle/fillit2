@@ -10,19 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <fcntl.h>
-#include "get_next_line.h"
 #include "fillit.h"
 
-unsigned				g_j;
-unsigned				g_count;
-unsigned				g_k;
+unsigned    g_j;
+unsigned	g_count;
+unsigned	g_k;
 
-unsigned		verify(char **file)
+unsigned    verify(char **file)
 {
-	unsigned			r;
-	unsigned			c;
-	unsigned			num;
+	unsigned    r;
+	unsigned	c;
+	unsigned	num;
 
 	r = 0;
 	c = 0;
@@ -46,7 +44,7 @@ unsigned		verify(char **file)
 	return (0);
 }
 
-void	coord_array(char **figure, t_figure *figur, unsigned *first, unsigned *g_k)
+void        coord_array(char **figure, t_figure *figur, unsigned *first, unsigned *g_k)
 {
 	g_j = -1;
 	while (*g_k < 4)
@@ -75,10 +73,10 @@ void	coord_array(char **figure, t_figure *figur, unsigned *first, unsigned *g_k)
 	}
 }
 
-unsigned		second_check(char **figure, unsigned *i, unsigned *fig_num, t_list **figures)
+unsigned        second_check(char **figure, unsigned *i, unsigned *fig_num, t_list **figures)
 {
-	unsigned	*first;
-	t_figure	*figur;
+	unsigned    *first;
+	t_figure    *figur;
 
 	g_k = 0;
 	figur = (t_figure*)malloc(sizeof(t_figure));
@@ -132,7 +130,7 @@ unsigned		is_valid(int ac, char **av, unsigned *fig_num, t_list **figures)
 	return (1);
 }
 
-int		main(int ac, char **av)
+int             main(int ac, char **av)
 {
 	t_list		**figures;
 	t_list		*figure;
