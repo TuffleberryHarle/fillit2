@@ -76,6 +76,7 @@ add_executable(tharle
         libft/ft_toupper.c
         libft/libft.h
         srcs/add_func.c
+        srcs/1.c
         srcs/additional_functions.c
         srcs/get_next_line.c
         srcs/main.c

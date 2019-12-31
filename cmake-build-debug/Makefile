@@ -1851,6 +1851,33 @@ libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
+srcs/1.o: srcs/1.c.o
+
+.PHONY : srcs/1.o
+
+# target to build an object file
+srcs/1.c.o:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/1.c.o
+.PHONY : srcs/1.c.o
+
+srcs/1.i: srcs/1.c.i
+
+.PHONY : srcs/1.i
+
+# target to preprocess a source file
+srcs/1.c.i:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/1.c.i
+.PHONY : srcs/1.c.i
+
+srcs/1.s: srcs/1.c.s
+
+.PHONY : srcs/1.s
+
+# target to generate assembly for a file
+srcs/1.c.s:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/1.c.s
+.PHONY : srcs/1.c.s
+
 srcs/add_func.o: srcs/add_func.c.o
 
 .PHONY : srcs/add_func.o
@@ -2214,6 +2241,9 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
+	@echo "... srcs/1.o"
+	@echo "... srcs/1.i"
+	@echo "... srcs/1.s"
 	@echo "... srcs/add_func.o"
 	@echo "... srcs/add_func.i"
 	@echo "... srcs/add_func.s"

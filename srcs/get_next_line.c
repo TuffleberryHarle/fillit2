@@ -5,79 +5,69 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: tharle <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/07 18:55:38 by tharle            #+#    #+#             */
-/*   Updated: 2019/09/07 18:58:08 by tharle         ###   ########.fr       */
+/*   Created: 2019/09/08 15:44:41 by tharle            #+#    #+#             */
+/*   Updated: 2019/11/17 16:29:35 by tharle           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-int		iteration(char **str, char **line, const int fd)
+int		gnl_2(char **arr, char **line, int fd, int ret)
 {
 	char	*tmp;
-	int		len;
+	int		pos;
 
-	if (ft_strchr(str[fd], '\n'))
+	pos = 0;
+	while (arr[fd][pos] != '\n' && arr[fd][pos] != '\0')
+		pos++;
+	if (arr[fd][pos] == '\0')
 	{
-		len = ft_strlen(str[fd]) - (ft_strchr(str[fd], '\n') - str[fd]);
-		tmp = ft_strnew(len + 1);
-		ft_strncpy(tmp, ft_strchr(str[fd], '\n') + 1, len - 1);
-		*line = ft_strsub(str[fd], 0, ft_strchr(str[fd], '\n') - str[fd]);
-		ft_strdel(&str[fd]);
-		str[fd] = tmp;
+		if (ret == BUFF_SIZE)
+			return (get_next_line(fd, line));
+		*line = ft_strdup(arr[fd]);
+		ft_strdel(&arr[fd]);
 	}
-	else if (str[fd][0])
+	else if (arr[fd][pos] == '\n')
 	{
-		if (!(ft_strchr(str[fd], '\n')))
-			return (-1);
-		*line = ft_strdup(str[fd]);
-		ft_strdel(&str[fd]);
+		tmp = ft_strdup(arr[fd] + pos + 1);
+		*line = ft_strsub(arr[fd], 0, pos);
+		free(arr[fd]);
+		arr[fd] = tmp;
+		if (arr[fd][0] == '\0')
+			ft_strdel(&arr[fd]);
 	}
-	else
-		return (0);
 	return (1);
 }
 
-void	copy(char **str, char *buf, int fd)
+int		gnl_1(char **arr, char **line, int fd, char *buf)
 {
+	int		ret;
 	char	*tmp;
-	int		strlen;
-	int		buflen;
 
-	if (!str[fd])
-		str[fd] = ft_strnew(1);
-	strlen = ft_strlen(str[fd]);
-	buflen = ft_strlen(buf);
-	tmp = ft_strnew(strlen + buflen + 1);
-	ft_strncpy(tmp, str[fd], strlen);
-	ft_strncpy(tmp + strlen, buf, buflen);
-	free(str[fd]);
-	str[fd] = tmp;
-}
-
-int		get_next_line(const int fd, char **line)
-{
-	static char	*str[12000];
-	char		buf[BUFF_SIZE + 1];
-	int			ret;
-
-	if (fd < 0 || line == 0)
-		return (-1);
 	while ((ret = read(fd, buf, BUFF_SIZE)) > 0)
 	{
 		buf[ret] = '\0';
-		copy(str, buf, fd);
-		if (BUFF_SIZE == 1)
-		{
-			if (buf[ret - 1] == '\n')
-				break ;
-		}
-		else if (ft_strchr(str[fd], '\n'))
+		if (!arr[fd])
+			arr[fd] = ft_strnew(1);
+		tmp = ft_strjoin(arr[fd], buf);
+		free(arr[fd]);
+		arr[fd] = tmp;
+		if (ft_strchr(buf, '\n'))
 			break ;
 	}
 	if (ret < 0)
 		return (-1);
-	if (!ret && !str[fd])
+	else if (ret == 0 && (!arr[fd] || arr[fd][0] == '\0'))
 		return (0);
-	return (iteration(str, line, fd));
+	return (gnl_2(arr, line, fd, ret));
+}
+
+int		get_next_line(const int fd, char **line)
+{
+	char		buf[BUFF_SIZE + 1];
+	static char	*arr[255];
+
+	if (fd < 0 || !line)
+		return (-1);
+	return (gnl_1(arr, line, fd, buf));
 }

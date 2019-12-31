@@ -20,6 +20,7 @@ SRCS =	srcs/add_func.c \
 		srcs/get_next_line.c \
 		srcs/main.c \
 		srcs/print_map.c \
+		srcs/1.c \
 		srcs/solve_tetris.c 
 
 OBJS = $(subst .c,.o,$(subst srcs/,,$(SRCS)))

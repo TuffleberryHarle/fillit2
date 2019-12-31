@@ -70,31 +70,4 @@ void	correct_coords(t_figure *figur, t_list **figures, int *first)
 	create_list(figures, figur);
 }
 
-int		simple_check(char **line, int *text, char **figure, int *i)
-{
-	static int tetr;
 
-	if (*text < 5 && tetr == 0)
-		tetr = 0;
-	if (!**line)
-	{
-		if (*text == 5)
-		{
-			*text = 1;
-			tetr++;
-			*i = 0;
-			return (1);
-		}
-		return (0);
-	}
-	if ((ft_strlen(*line)) == 4)
-	{
-		figure[*i] = ft_strdup(*line);
-		*text += 1;
-		free(*line);
-		*i += 1;
-	}
-	if (tetr >= 25 || *text > 5)
-		return (0);
-	return (1);
-}

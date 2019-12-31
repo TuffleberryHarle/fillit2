@@ -13,6 +13,7 @@
 #ifndef FILLIT_H
 # define FILLIT_H
 # include "libft.h"
+# include "get_next_line.h"
 # include <fcntl.h>
 # include <stdio.h>
 
@@ -32,7 +33,8 @@ void			clear_map(char **map);
 int				conections_sum(int *r, int *c, int *num, char **file);
 void			create_list(t_list **figures, t_figure *figur);
 void			correct_coords(t_figure *figur, t_list **figures, int *first);
-int				simple_check(char **line, int *text, char **figure, int *i);
+int				tetr_check1(char **line, int *text, char **figure, int *i);
+int             is_valid(int ac, char **av, int *fig_num, t_list **figures);
 void			clear_list(t_list **figures);
 
 #endif
