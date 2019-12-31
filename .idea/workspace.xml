@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="tharle" targetName="tharle" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d08d4dc9-45aa-4cf6-9278-5401960a731d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fillit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mcanhand3.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mcanhand3.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mcanhand3.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mcanhand3.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mcanhand3.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mcanhand3.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/mcanhand3.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Vl3IeDiM9der5j2CW15dA4e5iF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="CMake Application.tharle">
+    <configuration name="tharle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tharle" TARGET_NAME="tharle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tharle" RUN_TARGET_NAME="tharle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="debug (1)" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="debug" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="debug" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="debug" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.debug" />
+        <item itemvalue="Makefile.debug (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d08d4dc9-45aa-4cf6-9278-5401960a731d" name="Default Changelist" comment="" />
+      <created>1577813776126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577813776126</updated>
+      <workItem from="1577813777724" duration="444000" />
+      <workItem from="1577814275526" duration="1271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1833" y="603" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577815258230">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state x="1833" y="603" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2880.1517@0.23.2880.1517" timestamp="1577815258230" />
+    <state width="1645" height="540" key="GridCell.Tab.0.bottom" timestamp="1577814693604">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state width="1645" height="540" key="GridCell.Tab.0.bottom/0.23.2880.1517@0.23.2880.1517" timestamp="1577814693604" />
+    <state width="1645" height="540" key="GridCell.Tab.0.center" timestamp="1577814693603">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state width="1645" height="540" key="GridCell.Tab.0.center/0.23.2880.1517@0.23.2880.1517" timestamp="1577814693603" />
+    <state width="1645" height="540" key="GridCell.Tab.0.left" timestamp="1577814693603">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state width="1645" height="540" key="GridCell.Tab.0.left/0.23.2880.1517@0.23.2880.1517" timestamp="1577814693603" />
+    <state width="1645" height="540" key="GridCell.Tab.0.right" timestamp="1577814693604">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state width="1645" height="540" key="GridCell.Tab.0.right/0.23.2880.1517@0.23.2880.1517" timestamp="1577814693604" />
+    <state width="1645" height="540" key="GridCell.Tab.1.bottom" timestamp="1577814693605">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state width="1645" height="540" key="GridCell.Tab.1.bottom/0.23.2880.1517@0.23.2880.1517" timestamp="1577814693605" />
+    <state width="1645" height="540" key="GridCell.Tab.1.center" timestamp="1577814693604">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state width="1645" height="540" key="GridCell.Tab.1.center/0.23.2880.1517@0.23.2880.1517" timestamp="1577814693604" />
+    <state width="1645" height="540" key="GridCell.Tab.1.left" timestamp="1577814693604">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state width="1645" height="540" key="GridCell.Tab.1.left/0.23.2880.1517@0.23.2880.1517" timestamp="1577814693604" />
+    <state width="1645" height="540" key="GridCell.Tab.1.right" timestamp="1577814693605">
+      <screen x="0" y="23" width="2880" height="1517" />
+    </state>
+    <state width="1645" height="540" key="GridCell.Tab.1.right/0.23.2880.1517@0.23.2880.1517" timestamp="1577814693605" />
+  </component>
+</project>
