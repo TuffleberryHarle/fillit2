@@ -32,7 +32,7 @@ $(NAME): lib $(OBJS)
 	$(CC) $(CFLAGS) -o $(NAME) $(OBJS) -L libft -lft
 
 $(OBJS):
-	$(CC) $(CFLAGS) -c $(SRCS) -Iincludes/ -Ilibft/includes/
+	$(CC) $(CFLAGS) -c $(SRCS) -I includes/ -I libft/includes/
 
 lib:
 	make -C libft
@@ -46,5 +46,6 @@ fclean: clean
 	make -C libft fclean
 
 re: fclean all
+
 
 .PHONY: clean fclean all re
