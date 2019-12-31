@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.14)
-project(mcanhand3 C)
+project(tharle C)
 
 set(CMAKE_C_STANDARD 11)
 
 include_directories(includes)
 include_directories(libft)
 
-add_executable(mcanhand3
+add_executable(tharle
         includes/fillit.h
         includes/get_next_line.h
         includes/libft.h
