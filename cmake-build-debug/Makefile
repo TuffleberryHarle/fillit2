@@ -1878,6 +1878,33 @@ srcs/1.c.s:
 	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/1.c.s
 .PHONY : srcs/1.c.s
 
+srcs/2.o: srcs/2.c.o
+
+.PHONY : srcs/2.o
+
+# target to build an object file
+srcs/2.c.o:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/2.c.o
+.PHONY : srcs/2.c.o
+
+srcs/2.i: srcs/2.c.i
+
+.PHONY : srcs/2.i
+
+# target to preprocess a source file
+srcs/2.c.i:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/2.c.i
+.PHONY : srcs/2.c.i
+
+srcs/2.s: srcs/2.c.s
+
+.PHONY : srcs/2.s
+
+# target to generate assembly for a file
+srcs/2.c.s:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/2.c.s
+.PHONY : srcs/2.c.s
+
 srcs/add_func.o: srcs/add_func.c.o
 
 .PHONY : srcs/add_func.o
@@ -1904,33 +1931,6 @@ srcs/add_func.s: srcs/add_func.c.s
 srcs/add_func.c.s:
 	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/add_func.c.s
 .PHONY : srcs/add_func.c.s
-
-srcs/additional_functions.o: srcs/additional_functions.c.o
-
-.PHONY : srcs/additional_functions.o
-
-# target to build an object file
-srcs/additional_functions.c.o:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/additional_functions.c.o
-.PHONY : srcs/additional_functions.c.o
-
-srcs/additional_functions.i: srcs/additional_functions.c.i
-
-.PHONY : srcs/additional_functions.i
-
-# target to preprocess a source file
-srcs/additional_functions.c.i:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/additional_functions.c.i
-.PHONY : srcs/additional_functions.c.i
-
-srcs/additional_functions.s: srcs/additional_functions.c.s
-
-.PHONY : srcs/additional_functions.s
-
-# target to generate assembly for a file
-srcs/additional_functions.c.s:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/additional_functions.c.s
-.PHONY : srcs/additional_functions.c.s
 
 srcs/get_next_line.o: srcs/get_next_line.c.o
 
@@ -2244,12 +2244,12 @@ help:
 	@echo "... srcs/1.o"
 	@echo "... srcs/1.i"
 	@echo "... srcs/1.s"
+	@echo "... srcs/2.o"
+	@echo "... srcs/2.i"
+	@echo "... srcs/2.s"
 	@echo "... srcs/add_func.o"
 	@echo "... srcs/add_func.i"
 	@echo "... srcs/add_func.s"
-	@echo "... srcs/additional_functions.o"
-	@echo "... srcs/additional_functions.i"
-	@echo "... srcs/additional_functions.s"
 	@echo "... srcs/get_next_line.o"
 	@echo "... srcs/get_next_line.i"
 	@echo "... srcs/get_next_line.s"

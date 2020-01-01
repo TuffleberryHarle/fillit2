@@ -77,7 +77,7 @@ add_executable(tharle
         libft/libft.h
         srcs/add_func.c
         srcs/1.c
-        srcs/additional_functions.c
+        srcs/2.c
         srcs/get_next_line.c
         srcs/main.c
         srcs/print_map.c

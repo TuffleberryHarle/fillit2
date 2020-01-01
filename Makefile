@@ -16,7 +16,7 @@ CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
 SRCS =	srcs/add_func.c \
-		srcs/additional_functions.c \
+		srcs/2.c \
 		srcs/get_next_line.c \
 		srcs/main.c \
 		srcs/print_map.c \

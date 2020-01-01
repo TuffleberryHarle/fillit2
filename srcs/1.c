@@ -4,60 +4,60 @@ int				global_k;
 int				global_j;
 int				global_count;
 
-int		verify(char **file)
+int		tetr_verify(char **figure)
 {
-	int			r;
-	int			c;
+	int			row;
+	int			col;
 	int			num;
 	
-	r = 0;
-	c = 0;
+	row = 0;
+	col = 0;
 	num = 0;
-	while (r < 4)
+	while (row < 4)
 	{
-		while (file[r][c] != '\0')
+		while (figure[row][col] != '\0')
 		{
-			if (file[r][c] != '#' && file[r][c] != '.')
+			if (figure[row][col] != '#' && figure[row][col] != '.')
 				return (0);
-			if (file[r][c++] == '#')
+			if (figure[row][col++] == '#')
 				num++;
 		}
-		c = 0;
-		r++;
+		col = 0;
+		row++;
 	}
-	r = 0;
+	row = 0;
 	global_count = -1;
-	if (num == 4 && conections_sum(&r, &c, &num, file))
+	if (num == 4 && conect_check(&row, &col, &num, figure))
 		return (1);
 	return (0);
 }
 
-void	coord_array(char **figure, t_figure *fig, int *first, int *g_k)
+void	tetr_array(char **figure, t_figure *fig, int *first, int *global_k)
 {
 	global_j = -1;
-	while (*g_k < 4)
+	while (*global_k < 4)
 	{
-		while (figure[*g_k][++global_j] != '\0')
+		while (figure[*global_k][++global_j] != '\0')
 		{
-			if (figure[*g_k][global_j] == '#')
+			if (figure[*global_k][global_j] == '#')
 			{
 				if (++global_count == 0)
 				{
 					first[0] = (int)global_j;
-					first[1] = (int)*g_k;
+					first[1] = (int)*global_k;
 					fig->x[0] = (int)global_j;
-					fig->y[0] = (int)*g_k;
+					fig->y[0] = (int)*global_k;
 				}
 				else
 				{
 					(global_j < first[0]) ? first[0] = global_j : first[0];
-					fig->y[global_count] = (int)*g_k;
+					fig->y[global_count] = (int)*global_k;
 					fig->x[global_count] = (int)global_j;
 				}
 			}
 		}
 		global_j = -1;
-		*g_k += 1;
+		*global_k += 1;
 	}
 }
 
@@ -74,16 +74,16 @@ int		tetr_check2(char **figure, t_list **figures, int *fig_num, int *i)
 	if (*i == 4)
 	{
 		figure[5] = NULL;
-		if (!(verify(figure)))
+		if (!(tetr_verify(figure)))
 			return (0);
 		*i = 0;
-		coord_array(figure, fig, first, &global_k);
-		correct_coords(fig, figures, first);
-		*fig_num += 1;
+		tetr_array(figure, fig, first, &global_k);
+		correct_coord(fig, figures, first);
+		(*fig_num)++;
 		while (*i < 4)
 		{
 			free(figure[*i]);
-			*i += 1;
+			(*i)++;
 		}
 		free(figure);
 	}

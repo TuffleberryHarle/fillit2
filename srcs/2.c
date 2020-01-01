@@ -12,29 +12,29 @@
 
 #include "fillit.h"
 
-int		conections_sum(int *r, int *c, int *num, char **file)
+int		conect_check(int *row, int *col, int *num, char **file)
 {
-	*c = 0;
+	*col = 0;
 	*num = 0;
-	while (*r < 4)
+	while (*row < 4)
 	{
-		while (file[*r][*c] != '\0')
+		while (file[*row][*col] != '\0')
 		{
-			if (file[*r][*c] == '#')
+			if (file[*row][*col] == '#')
 			{
-				if (*c > 0 && file[*r][*c - 1] == '#')
-					*num += 1;
-				if (*r > 0 && file[*r - 1][*c] == '#')
-					*num += 1;
-				if (*c < 3 && file[*r][*c + 1] == '#')
-					*num += 1;
-				if (*r < 3 && file[*r + 1][*c] == '#')
-					*num += 1;
+				if (*col > 0 && file[*row][*col - 1] == '#')
+					(*num)++;
+				if (*row > 0 && file[*row - 1][*col] == '#')
+					(*num)++;
+				if (*col < 3 && file[*row][*col + 1] == '#')
+					(*num)++;
+				if (*row < 3 && file[*row + 1][*col] == '#')
+					(*num)++;
 			}
-			*c += 1;
+			(*col)++;
 		}
-		*r += 1;
-		*c = 0;
+		(*row)++;
+		*col = 0;
 	}
 	if (*num == 6 || *num == 8)
 		return (1);
@@ -56,18 +56,18 @@ void	create_list(t_list **figures, t_figure *figur)
 	}
 }
 
-void	correct_coords(t_figure *figur, t_list **figures, int *first)
+void	correct_coord(t_figure *fig, t_list **figures, int *first)
 {
 	int			r;
 
 	r = 0;
 	while (r < 4)
 	{
-		figur->x[r] = (int)figur->x[r] - (int)first[0];
-		figur->y[r] = (int)figur->y[r] - (int)first[1];
+		fig->x[r] = (int)fig->x[r] - (int)first[0];
+		fig->y[r] = (int)fig->y[r] - (int)first[1];
 		r++;
 	}
-	create_list(figures, figur);
+	create_list(figures, fig);
 }
 
 
