@@ -12,14 +12,13 @@
 
 #include "fillit.h"
 
-void	clear(t_list *figures, int total, char **map, char c)
+void	clear(int total, char **map, char c)
 {
 	int x;
 	int y;
 
 	x = 0;
 	y = 0;
-	figures = 0;
 	while (y < total)
 	{
 		while (x < total)

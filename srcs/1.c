@@ -1,8 +1,8 @@
 #include "fillit.h"
 
-int				global_k;
-int				global_j;
-int				global_count;
+int				ext_k;
+int				ext_j;
+int				ext_num;
 
 int		tetr_verify(char **figure)
 {
@@ -26,38 +26,38 @@ int		tetr_verify(char **figure)
 		row++;
 	}
 	row = 0;
-	global_count = -1;
+	ext_num = -1;
 	if (num == 4 && conect_check(&row, &col, &num, figure))
 		return (1);
 	return (0);
 }
 
-void	tetr_array(char **figure, t_figure *fig, int *first, int *global_k)
+void	tetr_array(char **figure, t_figure *fig, int *first, int *ext_k)
 {
-	global_j = -1;
-	while (*global_k < 4)
+	ext_j = -1;
+	while (*ext_k < 4)
 	{
-		while (figure[*global_k][++global_j] != '\0')
+		while (figure[*ext_k][++ext_j] != '\0')
 		{
-			if (figure[*global_k][global_j] == '#')
+			if (figure[*ext_k][ext_j] == '#')
 			{
-				if (++global_count == 0)
+				if (++ext_num == 0)
 				{
-					first[0] = (int)global_j;
-					first[1] = (int)*global_k;
-					fig->x[0] = (int)global_j;
-					fig->y[0] = (int)*global_k;
+					first[0] = (int)ext_j;
+					first[1] = (int)*ext_k;
+					fig->x[0] = (int)ext_j;
+					fig->y[0] = (int)*ext_k;
 				}
 				else
 				{
-					(global_j < first[0]) ? first[0] = global_j : first[0];
-					fig->y[global_count] = (int)*global_k;
-					fig->x[global_count] = (int)global_j;
+					(ext_j < first[0]) ? first[0] = ext_j : first[0];
+					fig->y[ext_num] = (int)*ext_k;
+					fig->x[ext_num] = (int)ext_j;
 				}
 			}
 		}
-		global_j = -1;
-		*global_k += 1;
+		ext_j = -1;
+		*ext_k += 1; /++
 	}
 }
 
@@ -66,7 +66,7 @@ int		tetr_check2(char **figure, t_list **figures, int *fig_num, int *i)
 	int			*first;
 	t_figure	*fig;
 	
-	global_k = 0;
+	ext_k = 0;
 	fig = (t_figure*)malloc(sizeof(t_figure));
 	fig->x = (int*)malloc(sizeof(int) * 4);
 	fig->y = (int*)malloc(sizeof(int) * 4);
@@ -77,7 +77,7 @@ int		tetr_check2(char **figure, t_list **figures, int *fig_num, int *i)
 		if (!(tetr_verify(figure)))
 			return (0);
 		*i = 0;
-		tetr_array(figure, fig, first, &global_k);
+		tetr_array(figure, fig, first, &ext_k);
 		correct_coord(fig, figures, first);
 		(*fig_num)++;
 		while (*i < 4)
@@ -90,17 +90,17 @@ int		tetr_check2(char **figure, t_list **figures, int *fig_num, int *i)
 	return (1);
 }
 
-int		tetr_check1(char **line, int *text, char **figure, int *i)
+int		tetr_check1(char **line, int *row, char **figure, int *i)
 {
 	static int tetr;
 	
-	if (*text < 5 && tetr == 0)
+	if (*row < 5 && tetr == 0)
 		tetr = 0;
 	if (!(**line))
 	{
-		if (*text == 5)
+		if (*row == 5)
 		{
-			*text = 1;
+			*row = 1;
 			tetr++;
 			*i = 0;
 			return (1);
@@ -110,11 +110,11 @@ int		tetr_check1(char **line, int *text, char **figure, int *i)
 	if ((ft_strlen(*line)) == 4)
 	{
 		figure[*i] = ft_strdup(*line);
-		(*text)++;
+		(*row)++;
 		free(*line);
 		(*i)++;
 	}
-	if (tetr >= 25 || *text > 5)
+	if (tetr >= 25 || *row > 5)
 		return (0);
 	return (1);
 }
@@ -132,7 +132,7 @@ int		is_valid(int ac, char **av, int *fig_num, t_list **figures)
 	figure = NULL;
 	if (ac != 2)
 		return (0);
-	fd = open(av[1], O_RDONLY);
+	fd = open("samples/1", O_RDONLY);
 	while (get_next_line(fd, &line) > 0 && row < 6)
 	{
 		if (row == 1)

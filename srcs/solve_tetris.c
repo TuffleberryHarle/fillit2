@@ -41,7 +41,7 @@ void	next_dot(t_list *figures)
 				g_y1++;
 			}
 		}
-		clear(figures, g_total, g_map, g_text[g_current_item]);
+		clear(g_total, g_map, g_text[g_current_item]);
 		g_tmp = get_item(figures, g_current_item);
 		g_x1 += 1 - ((int*)((t_figure*)g_tmp->content)->x)[0];
 	}
@@ -72,7 +72,7 @@ void	check(t_list *figures)
 {
 	if (g_i != 4)
 	{
-		clear(figures, g_total, g_map, g_text[g_current_item]);
+		clear(g_total, g_map, g_text[g_current_item]);
 		g_x1++;
 	}
 	else
