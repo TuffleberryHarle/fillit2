@@ -18,34 +18,8 @@ char	*ext_letter;
 int		ext_i;
 int		ext_x;
 int		ext_y;
-int		ext_curr;
-int		ext_total;
-
-void	next_dot(t_list *figures)
-{
-	if (ext_x > ext_total)
-	{
-		ext_y++;
-		ext_x = 0;
-	}
-	if (ext_y >= ext_total)
-	{
-		ext_x = 0;
-		ext_y = 0;
-		ext_curr--;
-		while (ext_map[ext_y][ext_x] != ext_letter[ext_curr])
-		{
-			if (ext_x++ == ext_total)
-			{
-				ext_x = 0;
-				ext_y++;
-			}
-		}
-		clear(ext_total, ext_map, ext_letter[ext_curr]);
-		ext_tmp = get_item(figures, ext_curr);
-		ext_x += 1 - ((int*)((t_figure*)ext_tmp->content)->x)[0];
-	}
-}
+unsigned		ext_curr;
+unsigned		ext_total;
 
 void	square_expand(void)
 {
@@ -112,7 +86,33 @@ void	figure_set(void)
 	}
 }
 
-char	**tetr_solve(t_list *figures, int count)
+void	next_dot(t_list *figures)
+{
+	if (ext_x > ext_total)
+	{
+		ext_y++;
+		ext_x = 0;
+	}
+	if (ext_y >= ext_total)
+	{
+		ext_x = 0;
+		ext_y = 0;
+		ext_curr--;
+		while (ext_map[ext_y][ext_x] != ext_letter[ext_curr])
+		{
+			if (ext_x++ == ext_total)
+			{
+				ext_x = 0;
+				ext_y++;
+			}
+		}
+		clear(ext_total, ext_map, ext_letter[ext_curr]);
+		ext_tmp = get_item(figures, ext_curr);
+		ext_x += 1 - ((int*)((t_figure*)ext_tmp->content)->x)[0];
+	}
+}
+
+char	**tetr_solve(t_list *figures, unsigned count)
 {
 	ext_i = 0;
 	ext_letter = ft_strdup("ABCDEFGHIJKLMNOPQRSTUVWXYZ");

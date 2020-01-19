@@ -47,10 +47,10 @@ t_list	*get_item(t_list *figures, int current_item)
 	return (tmp);
 }
 
-int		get_start_total(int count)
+unsigned		get_start_total(unsigned count)
 {
-	int		total;
-	int		i;
+	unsigned		total;
+	unsigned		i;
 
 	i = 2;
 	total = 0;
@@ -66,10 +66,10 @@ int		get_start_total(int count)
 	return (total);
 }
 
-char	**dots_set(int total)
+char	**dots_set(unsigned total)
 {
 	char	**map;
-	int		i;
+	unsigned		i;
 
 	i = 0;
 	map = (char**)malloc(sizeof(char*) * (total + 1));

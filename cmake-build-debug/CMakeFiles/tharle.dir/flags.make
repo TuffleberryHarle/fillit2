@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I"/home/tharle/Рабочий стол/21/fillit2/includes" -I"/home/tharle/Рабочий стол/21/fillit2/libft" 
+C_INCLUDES = -I"/home/tharle/Рабочий стол/21/fillit3/includes" -I"/home/tharle/Рабочий стол/21/fillit3/libft" 
 

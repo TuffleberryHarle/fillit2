@@ -43,10 +43,10 @@ RM = "/home/tharle/Документы/pro's/clion-2019.2.3/bin/cmake/linux/bin/c
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/tharle/Рабочий стол/21/fillit2"
+CMAKE_SOURCE_DIR = "/home/tharle/Рабочий стол/21/fillit3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tharle.dir/depend.make
@@ -59,926 +59,926 @@ include CMakeFiles/tharle.dir/flags.make
 
 CMakeFiles/tharle.dir/libft/ft_any.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_any.c.o: ../libft/ft_any.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tharle.dir/libft/ft_any.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_any.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_any.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tharle.dir/libft/ft_any.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_any.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_any.c"
 
 CMakeFiles/tharle.dir/libft/ft_any.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_any.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_any.c" > CMakeFiles/tharle.dir/libft/ft_any.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_any.c" > CMakeFiles/tharle.dir/libft/ft_any.c.i
 
 CMakeFiles/tharle.dir/libft/ft_any.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_any.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_any.c" -o CMakeFiles/tharle.dir/libft/ft_any.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_any.c" -o CMakeFiles/tharle.dir/libft/ft_any.c.s
 
 CMakeFiles/tharle.dir/libft/ft_atoi.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tharle.dir/libft/ft_atoi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_atoi.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_atoi.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tharle.dir/libft/ft_atoi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_atoi.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_atoi.c"
 
 CMakeFiles/tharle.dir/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_atoi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_atoi.c" > CMakeFiles/tharle.dir/libft/ft_atoi.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_atoi.c" > CMakeFiles/tharle.dir/libft/ft_atoi.c.i
 
 CMakeFiles/tharle.dir/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_atoi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_atoi.c" -o CMakeFiles/tharle.dir/libft/ft_atoi.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_atoi.c" -o CMakeFiles/tharle.dir/libft/ft_atoi.c.s
 
 CMakeFiles/tharle.dir/libft/ft_bzero.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tharle.dir/libft/ft_bzero.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_bzero.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_bzero.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/tharle.dir/libft/ft_bzero.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_bzero.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_bzero.c"
 
 CMakeFiles/tharle.dir/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_bzero.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_bzero.c" > CMakeFiles/tharle.dir/libft/ft_bzero.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_bzero.c" > CMakeFiles/tharle.dir/libft/ft_bzero.c.i
 
 CMakeFiles/tharle.dir/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_bzero.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_bzero.c" -o CMakeFiles/tharle.dir/libft/ft_bzero.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_bzero.c" -o CMakeFiles/tharle.dir/libft/ft_bzero.c.s
 
 CMakeFiles/tharle.dir/libft/ft_count_if.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_count_if.c.o: ../libft/ft_count_if.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tharle.dir/libft/ft_count_if.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_count_if.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_count_if.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/tharle.dir/libft/ft_count_if.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_count_if.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_count_if.c"
 
 CMakeFiles/tharle.dir/libft/ft_count_if.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_count_if.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_count_if.c" > CMakeFiles/tharle.dir/libft/ft_count_if.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_count_if.c" > CMakeFiles/tharle.dir/libft/ft_count_if.c.i
 
 CMakeFiles/tharle.dir/libft/ft_count_if.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_count_if.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_count_if.c" -o CMakeFiles/tharle.dir/libft/ft_count_if.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_count_if.c" -o CMakeFiles/tharle.dir/libft/ft_count_if.c.s
 
 CMakeFiles/tharle.dir/libft/ft_create_elem.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_create_elem.c.o: ../libft/ft_create_elem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/tharle.dir/libft/ft_create_elem.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_create_elem.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_create_elem.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/tharle.dir/libft/ft_create_elem.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_create_elem.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_create_elem.c"
 
 CMakeFiles/tharle.dir/libft/ft_create_elem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_create_elem.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_create_elem.c" > CMakeFiles/tharle.dir/libft/ft_create_elem.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_create_elem.c" > CMakeFiles/tharle.dir/libft/ft_create_elem.c.i
 
 CMakeFiles/tharle.dir/libft/ft_create_elem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_create_elem.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_create_elem.c" -o CMakeFiles/tharle.dir/libft/ft_create_elem.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_create_elem.c" -o CMakeFiles/tharle.dir/libft/ft_create_elem.c.s
 
 CMakeFiles/tharle.dir/libft/ft_isalnum.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_isalnum.c.o: ../libft/ft_isalnum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/tharle.dir/libft/ft_isalnum.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isalnum.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isalnum.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/tharle.dir/libft/ft_isalnum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isalnum.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isalnum.c"
 
 CMakeFiles/tharle.dir/libft/ft_isalnum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_isalnum.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isalnum.c" > CMakeFiles/tharle.dir/libft/ft_isalnum.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isalnum.c" > CMakeFiles/tharle.dir/libft/ft_isalnum.c.i
 
 CMakeFiles/tharle.dir/libft/ft_isalnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_isalnum.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isalnum.c" -o CMakeFiles/tharle.dir/libft/ft_isalnum.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isalnum.c" -o CMakeFiles/tharle.dir/libft/ft_isalnum.c.s
 
 CMakeFiles/tharle.dir/libft/ft_isalpha.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/tharle.dir/libft/ft_isalpha.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isalpha.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isalpha.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/tharle.dir/libft/ft_isalpha.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isalpha.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isalpha.c"
 
 CMakeFiles/tharle.dir/libft/ft_isalpha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_isalpha.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isalpha.c" > CMakeFiles/tharle.dir/libft/ft_isalpha.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isalpha.c" > CMakeFiles/tharle.dir/libft/ft_isalpha.c.i
 
 CMakeFiles/tharle.dir/libft/ft_isalpha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_isalpha.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isalpha.c" -o CMakeFiles/tharle.dir/libft/ft_isalpha.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isalpha.c" -o CMakeFiles/tharle.dir/libft/ft_isalpha.c.s
 
 CMakeFiles/tharle.dir/libft/ft_isascii.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_isascii.c.o: ../libft/ft_isascii.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/tharle.dir/libft/ft_isascii.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isascii.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isascii.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/tharle.dir/libft/ft_isascii.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isascii.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isascii.c"
 
 CMakeFiles/tharle.dir/libft/ft_isascii.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_isascii.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isascii.c" > CMakeFiles/tharle.dir/libft/ft_isascii.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isascii.c" > CMakeFiles/tharle.dir/libft/ft_isascii.c.i
 
 CMakeFiles/tharle.dir/libft/ft_isascii.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_isascii.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isascii.c" -o CMakeFiles/tharle.dir/libft/ft_isascii.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isascii.c" -o CMakeFiles/tharle.dir/libft/ft_isascii.c.s
 
 CMakeFiles/tharle.dir/libft/ft_isdigit.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/tharle.dir/libft/ft_isdigit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isdigit.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isdigit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/tharle.dir/libft/ft_isdigit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isdigit.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isdigit.c"
 
 CMakeFiles/tharle.dir/libft/ft_isdigit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_isdigit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isdigit.c" > CMakeFiles/tharle.dir/libft/ft_isdigit.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isdigit.c" > CMakeFiles/tharle.dir/libft/ft_isdigit.c.i
 
 CMakeFiles/tharle.dir/libft/ft_isdigit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_isdigit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isdigit.c" -o CMakeFiles/tharle.dir/libft/ft_isdigit.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isdigit.c" -o CMakeFiles/tharle.dir/libft/ft_isdigit.c.s
 
 CMakeFiles/tharle.dir/libft/ft_isprint.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_isprint.c.o: ../libft/ft_isprint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/tharle.dir/libft/ft_isprint.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isprint.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isprint.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/tharle.dir/libft/ft_isprint.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_isprint.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isprint.c"
 
 CMakeFiles/tharle.dir/libft/ft_isprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_isprint.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isprint.c" > CMakeFiles/tharle.dir/libft/ft_isprint.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isprint.c" > CMakeFiles/tharle.dir/libft/ft_isprint.c.i
 
 CMakeFiles/tharle.dir/libft/ft_isprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_isprint.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_isprint.c" -o CMakeFiles/tharle.dir/libft/ft_isprint.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_isprint.c" -o CMakeFiles/tharle.dir/libft/ft_isprint.c.s
 
 CMakeFiles/tharle.dir/libft/ft_itoa.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/tharle.dir/libft/ft_itoa.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_itoa.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_itoa.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/tharle.dir/libft/ft_itoa.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_itoa.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_itoa.c"
 
 CMakeFiles/tharle.dir/libft/ft_itoa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_itoa.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_itoa.c" > CMakeFiles/tharle.dir/libft/ft_itoa.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_itoa.c" > CMakeFiles/tharle.dir/libft/ft_itoa.c.i
 
 CMakeFiles/tharle.dir/libft/ft_itoa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_itoa.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_itoa.c" -o CMakeFiles/tharle.dir/libft/ft_itoa.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_itoa.c" -o CMakeFiles/tharle.dir/libft/ft_itoa.c.s
 
 CMakeFiles/tharle.dir/libft/ft_list_at.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_list_at.c.o: ../libft/ft_list_at.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/tharle.dir/libft/ft_list_at.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_list_at.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_list_at.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/tharle.dir/libft/ft_list_at.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_list_at.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_list_at.c"
 
 CMakeFiles/tharle.dir/libft/ft_list_at.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_list_at.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_list_at.c" > CMakeFiles/tharle.dir/libft/ft_list_at.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_list_at.c" > CMakeFiles/tharle.dir/libft/ft_list_at.c.i
 
 CMakeFiles/tharle.dir/libft/ft_list_at.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_list_at.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_list_at.c" -o CMakeFiles/tharle.dir/libft/ft_list_at.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_list_at.c" -o CMakeFiles/tharle.dir/libft/ft_list_at.c.s
 
 CMakeFiles/tharle.dir/libft/ft_list_push_back.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_list_push_back.c.o: ../libft/ft_list_push_back.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/tharle.dir/libft/ft_list_push_back.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_list_push_back.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_list_push_back.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/tharle.dir/libft/ft_list_push_back.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_list_push_back.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_list_push_back.c"
 
 CMakeFiles/tharle.dir/libft/ft_list_push_back.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_list_push_back.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_list_push_back.c" > CMakeFiles/tharle.dir/libft/ft_list_push_back.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_list_push_back.c" > CMakeFiles/tharle.dir/libft/ft_list_push_back.c.i
 
 CMakeFiles/tharle.dir/libft/ft_list_push_back.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_list_push_back.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_list_push_back.c" -o CMakeFiles/tharle.dir/libft/ft_list_push_back.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_list_push_back.c" -o CMakeFiles/tharle.dir/libft/ft_list_push_back.c.s
 
 CMakeFiles/tharle.dir/libft/ft_lstadd.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_lstadd.c.o: ../libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/tharle.dir/libft/ft_lstadd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstadd.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstadd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/tharle.dir/libft/ft_lstadd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstadd.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstadd.c"
 
 CMakeFiles/tharle.dir/libft/ft_lstadd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_lstadd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstadd.c" > CMakeFiles/tharle.dir/libft/ft_lstadd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstadd.c" > CMakeFiles/tharle.dir/libft/ft_lstadd.c.i
 
 CMakeFiles/tharle.dir/libft/ft_lstadd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_lstadd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstadd.c" -o CMakeFiles/tharle.dir/libft/ft_lstadd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstadd.c" -o CMakeFiles/tharle.dir/libft/ft_lstadd.c.s
 
 CMakeFiles/tharle.dir/libft/ft_lstdel.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_lstdel.c.o: ../libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/tharle.dir/libft/ft_lstdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstdel.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstdel.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/tharle.dir/libft/ft_lstdel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstdel.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstdel.c"
 
 CMakeFiles/tharle.dir/libft/ft_lstdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_lstdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstdel.c" > CMakeFiles/tharle.dir/libft/ft_lstdel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstdel.c" > CMakeFiles/tharle.dir/libft/ft_lstdel.c.i
 
 CMakeFiles/tharle.dir/libft/ft_lstdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_lstdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstdel.c" -o CMakeFiles/tharle.dir/libft/ft_lstdel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstdel.c" -o CMakeFiles/tharle.dir/libft/ft_lstdel.c.s
 
 CMakeFiles/tharle.dir/libft/ft_lstdelone.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/tharle.dir/libft/ft_lstdelone.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstdelone.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstdelone.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/tharle.dir/libft/ft_lstdelone.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstdelone.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstdelone.c"
 
 CMakeFiles/tharle.dir/libft/ft_lstdelone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_lstdelone.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstdelone.c" > CMakeFiles/tharle.dir/libft/ft_lstdelone.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstdelone.c" > CMakeFiles/tharle.dir/libft/ft_lstdelone.c.i
 
 CMakeFiles/tharle.dir/libft/ft_lstdelone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_lstdelone.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstdelone.c" -o CMakeFiles/tharle.dir/libft/ft_lstdelone.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstdelone.c" -o CMakeFiles/tharle.dir/libft/ft_lstdelone.c.s
 
 CMakeFiles/tharle.dir/libft/ft_lstiter.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/tharle.dir/libft/ft_lstiter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstiter.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstiter.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/tharle.dir/libft/ft_lstiter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstiter.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstiter.c"
 
 CMakeFiles/tharle.dir/libft/ft_lstiter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_lstiter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstiter.c" > CMakeFiles/tharle.dir/libft/ft_lstiter.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstiter.c" > CMakeFiles/tharle.dir/libft/ft_lstiter.c.i
 
 CMakeFiles/tharle.dir/libft/ft_lstiter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_lstiter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstiter.c" -o CMakeFiles/tharle.dir/libft/ft_lstiter.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstiter.c" -o CMakeFiles/tharle.dir/libft/ft_lstiter.c.s
 
 CMakeFiles/tharle.dir/libft/ft_lstmap.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/tharle.dir/libft/ft_lstmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstmap.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstmap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/tharle.dir/libft/ft_lstmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstmap.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstmap.c"
 
 CMakeFiles/tharle.dir/libft/ft_lstmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_lstmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstmap.c" > CMakeFiles/tharle.dir/libft/ft_lstmap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstmap.c" > CMakeFiles/tharle.dir/libft/ft_lstmap.c.i
 
 CMakeFiles/tharle.dir/libft/ft_lstmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_lstmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstmap.c" -o CMakeFiles/tharle.dir/libft/ft_lstmap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstmap.c" -o CMakeFiles/tharle.dir/libft/ft_lstmap.c.s
 
 CMakeFiles/tharle.dir/libft/ft_lstnew.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/tharle.dir/libft/ft_lstnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstnew.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstnew.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/tharle.dir/libft/ft_lstnew.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_lstnew.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstnew.c"
 
 CMakeFiles/tharle.dir/libft/ft_lstnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_lstnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstnew.c" > CMakeFiles/tharle.dir/libft/ft_lstnew.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstnew.c" > CMakeFiles/tharle.dir/libft/ft_lstnew.c.i
 
 CMakeFiles/tharle.dir/libft/ft_lstnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_lstnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_lstnew.c" -o CMakeFiles/tharle.dir/libft/ft_lstnew.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_lstnew.c" -o CMakeFiles/tharle.dir/libft/ft_lstnew.c.s
 
 CMakeFiles/tharle.dir/libft/ft_memalloc.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/tharle.dir/libft/ft_memalloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memalloc.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memalloc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/tharle.dir/libft/ft_memalloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memalloc.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memalloc.c"
 
 CMakeFiles/tharle.dir/libft/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_memalloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memalloc.c" > CMakeFiles/tharle.dir/libft/ft_memalloc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memalloc.c" > CMakeFiles/tharle.dir/libft/ft_memalloc.c.i
 
 CMakeFiles/tharle.dir/libft/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_memalloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memalloc.c" -o CMakeFiles/tharle.dir/libft/ft_memalloc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memalloc.c" -o CMakeFiles/tharle.dir/libft/ft_memalloc.c.s
 
 CMakeFiles/tharle.dir/libft/ft_memccpy.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/tharle.dir/libft/ft_memccpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memccpy.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memccpy.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/tharle.dir/libft/ft_memccpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memccpy.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memccpy.c"
 
 CMakeFiles/tharle.dir/libft/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_memccpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memccpy.c" > CMakeFiles/tharle.dir/libft/ft_memccpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memccpy.c" > CMakeFiles/tharle.dir/libft/ft_memccpy.c.i
 
 CMakeFiles/tharle.dir/libft/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_memccpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memccpy.c" -o CMakeFiles/tharle.dir/libft/ft_memccpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memccpy.c" -o CMakeFiles/tharle.dir/libft/ft_memccpy.c.s
 
 CMakeFiles/tharle.dir/libft/ft_memchr.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/tharle.dir/libft/ft_memchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memchr.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memchr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/tharle.dir/libft/ft_memchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memchr.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memchr.c"
 
 CMakeFiles/tharle.dir/libft/ft_memchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_memchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memchr.c" > CMakeFiles/tharle.dir/libft/ft_memchr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memchr.c" > CMakeFiles/tharle.dir/libft/ft_memchr.c.i
 
 CMakeFiles/tharle.dir/libft/ft_memchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_memchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memchr.c" -o CMakeFiles/tharle.dir/libft/ft_memchr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memchr.c" -o CMakeFiles/tharle.dir/libft/ft_memchr.c.s
 
 CMakeFiles/tharle.dir/libft/ft_memcmp.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/tharle.dir/libft/ft_memcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memcmp.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memcmp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/tharle.dir/libft/ft_memcmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memcmp.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memcmp.c"
 
 CMakeFiles/tharle.dir/libft/ft_memcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_memcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memcmp.c" > CMakeFiles/tharle.dir/libft/ft_memcmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memcmp.c" > CMakeFiles/tharle.dir/libft/ft_memcmp.c.i
 
 CMakeFiles/tharle.dir/libft/ft_memcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_memcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memcmp.c" -o CMakeFiles/tharle.dir/libft/ft_memcmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memcmp.c" -o CMakeFiles/tharle.dir/libft/ft_memcmp.c.s
 
 CMakeFiles/tharle.dir/libft/ft_memcpy.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/tharle.dir/libft/ft_memcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memcpy.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memcpy.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/tharle.dir/libft/ft_memcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memcpy.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memcpy.c"
 
 CMakeFiles/tharle.dir/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_memcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memcpy.c" > CMakeFiles/tharle.dir/libft/ft_memcpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memcpy.c" > CMakeFiles/tharle.dir/libft/ft_memcpy.c.i
 
 CMakeFiles/tharle.dir/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_memcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memcpy.c" -o CMakeFiles/tharle.dir/libft/ft_memcpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memcpy.c" -o CMakeFiles/tharle.dir/libft/ft_memcpy.c.s
 
 CMakeFiles/tharle.dir/libft/ft_memdel.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/tharle.dir/libft/ft_memdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memdel.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memdel.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/tharle.dir/libft/ft_memdel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memdel.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memdel.c"
 
 CMakeFiles/tharle.dir/libft/ft_memdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_memdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memdel.c" > CMakeFiles/tharle.dir/libft/ft_memdel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memdel.c" > CMakeFiles/tharle.dir/libft/ft_memdel.c.i
 
 CMakeFiles/tharle.dir/libft/ft_memdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_memdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memdel.c" -o CMakeFiles/tharle.dir/libft/ft_memdel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memdel.c" -o CMakeFiles/tharle.dir/libft/ft_memdel.c.s
 
 CMakeFiles/tharle.dir/libft/ft_memmove.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/tharle.dir/libft/ft_memmove.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memmove.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memmove.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/tharle.dir/libft/ft_memmove.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memmove.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memmove.c"
 
 CMakeFiles/tharle.dir/libft/ft_memmove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_memmove.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memmove.c" > CMakeFiles/tharle.dir/libft/ft_memmove.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memmove.c" > CMakeFiles/tharle.dir/libft/ft_memmove.c.i
 
 CMakeFiles/tharle.dir/libft/ft_memmove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_memmove.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memmove.c" -o CMakeFiles/tharle.dir/libft/ft_memmove.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memmove.c" -o CMakeFiles/tharle.dir/libft/ft_memmove.c.s
 
 CMakeFiles/tharle.dir/libft/ft_memset.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/tharle.dir/libft/ft_memset.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memset.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memset.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/tharle.dir/libft/ft_memset.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_memset.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memset.c"
 
 CMakeFiles/tharle.dir/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_memset.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memset.c" > CMakeFiles/tharle.dir/libft/ft_memset.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memset.c" > CMakeFiles/tharle.dir/libft/ft_memset.c.i
 
 CMakeFiles/tharle.dir/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_memset.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_memset.c" -o CMakeFiles/tharle.dir/libft/ft_memset.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_memset.c" -o CMakeFiles/tharle.dir/libft/ft_memset.c.s
 
 CMakeFiles/tharle.dir/libft/ft_putchar.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/tharle.dir/libft/ft_putchar.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putchar.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putchar.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/tharle.dir/libft/ft_putchar.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putchar.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putchar.c"
 
 CMakeFiles/tharle.dir/libft/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_putchar.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putchar.c" > CMakeFiles/tharle.dir/libft/ft_putchar.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putchar.c" > CMakeFiles/tharle.dir/libft/ft_putchar.c.i
 
 CMakeFiles/tharle.dir/libft/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_putchar.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putchar.c" -o CMakeFiles/tharle.dir/libft/ft_putchar.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putchar.c" -o CMakeFiles/tharle.dir/libft/ft_putchar.c.s
 
 CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putchar_fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putchar_fd.c"
 
 CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putchar_fd.c" > CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putchar_fd.c" > CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.i
 
 CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putchar_fd.c" -o CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putchar_fd.c" -o CMakeFiles/tharle.dir/libft/ft_putchar_fd.c.s
 
 CMakeFiles/tharle.dir/libft/ft_putendl.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/tharle.dir/libft/ft_putendl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putendl.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putendl.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/tharle.dir/libft/ft_putendl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putendl.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putendl.c"
 
 CMakeFiles/tharle.dir/libft/ft_putendl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_putendl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putendl.c" > CMakeFiles/tharle.dir/libft/ft_putendl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putendl.c" > CMakeFiles/tharle.dir/libft/ft_putendl.c.i
 
 CMakeFiles/tharle.dir/libft/ft_putendl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_putendl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putendl.c" -o CMakeFiles/tharle.dir/libft/ft_putendl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putendl.c" -o CMakeFiles/tharle.dir/libft/ft_putendl.c.s
 
 CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putendl_fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putendl_fd.c"
 
 CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putendl_fd.c" > CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putendl_fd.c" > CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.i
 
 CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putendl_fd.c" -o CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putendl_fd.c" -o CMakeFiles/tharle.dir/libft/ft_putendl_fd.c.s
 
 CMakeFiles/tharle.dir/libft/ft_putnbr.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/tharle.dir/libft/ft_putnbr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putnbr.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putnbr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/tharle.dir/libft/ft_putnbr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putnbr.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putnbr.c"
 
 CMakeFiles/tharle.dir/libft/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_putnbr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putnbr.c" > CMakeFiles/tharle.dir/libft/ft_putnbr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putnbr.c" > CMakeFiles/tharle.dir/libft/ft_putnbr.c.i
 
 CMakeFiles/tharle.dir/libft/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_putnbr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putnbr.c" -o CMakeFiles/tharle.dir/libft/ft_putnbr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putnbr.c" -o CMakeFiles/tharle.dir/libft/ft_putnbr.c.s
 
 CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putnbr_fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putnbr_fd.c"
 
 CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putnbr_fd.c" > CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putnbr_fd.c" > CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.i
 
 CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putnbr_fd.c" -o CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putnbr_fd.c" -o CMakeFiles/tharle.dir/libft/ft_putnbr_fd.c.s
 
 CMakeFiles/tharle.dir/libft/ft_putstr.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/tharle.dir/libft/ft_putstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putstr.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putstr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/tharle.dir/libft/ft_putstr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putstr.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putstr.c"
 
 CMakeFiles/tharle.dir/libft/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_putstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putstr.c" > CMakeFiles/tharle.dir/libft/ft_putstr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putstr.c" > CMakeFiles/tharle.dir/libft/ft_putstr.c.i
 
 CMakeFiles/tharle.dir/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_putstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putstr.c" -o CMakeFiles/tharle.dir/libft/ft_putstr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putstr.c" -o CMakeFiles/tharle.dir/libft/ft_putstr.c.s
 
 CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putstr_fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putstr_fd.c"
 
 CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putstr_fd.c" > CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putstr_fd.c" > CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.i
 
 CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_putstr_fd.c" -o CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_putstr_fd.c" -o CMakeFiles/tharle.dir/libft/ft_putstr_fd.c.s
 
 CMakeFiles/tharle.dir/libft/ft_reverse.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_reverse.c.o: ../libft/ft_reverse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/tharle.dir/libft/ft_reverse.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_reverse.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_reverse.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/tharle.dir/libft/ft_reverse.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_reverse.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_reverse.c"
 
 CMakeFiles/tharle.dir/libft/ft_reverse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_reverse.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_reverse.c" > CMakeFiles/tharle.dir/libft/ft_reverse.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_reverse.c" > CMakeFiles/tharle.dir/libft/ft_reverse.c.i
 
 CMakeFiles/tharle.dir/libft/ft_reverse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_reverse.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_reverse.c" -o CMakeFiles/tharle.dir/libft/ft_reverse.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_reverse.c" -o CMakeFiles/tharle.dir/libft/ft_reverse.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strcat.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/tharle.dir/libft/ft_strcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strcat.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcat.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/tharle.dir/libft/ft_strcat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strcat.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcat.c"
 
 CMakeFiles/tharle.dir/libft/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcat.c" > CMakeFiles/tharle.dir/libft/ft_strcat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcat.c" > CMakeFiles/tharle.dir/libft/ft_strcat.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcat.c" -o CMakeFiles/tharle.dir/libft/ft_strcat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcat.c" -o CMakeFiles/tharle.dir/libft/ft_strcat.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strchr.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/tharle.dir/libft/ft_strchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strchr.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strchr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/tharle.dir/libft/ft_strchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strchr.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strchr.c"
 
 CMakeFiles/tharle.dir/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strchr.c" > CMakeFiles/tharle.dir/libft/ft_strchr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strchr.c" > CMakeFiles/tharle.dir/libft/ft_strchr.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strchr.c" -o CMakeFiles/tharle.dir/libft/ft_strchr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strchr.c" -o CMakeFiles/tharle.dir/libft/ft_strchr.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strclr.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/tharle.dir/libft/ft_strclr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strclr.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strclr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/tharle.dir/libft/ft_strclr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strclr.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strclr.c"
 
 CMakeFiles/tharle.dir/libft/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strclr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strclr.c" > CMakeFiles/tharle.dir/libft/ft_strclr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strclr.c" > CMakeFiles/tharle.dir/libft/ft_strclr.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strclr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strclr.c" -o CMakeFiles/tharle.dir/libft/ft_strclr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strclr.c" -o CMakeFiles/tharle.dir/libft/ft_strclr.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strcmp.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/tharle.dir/libft/ft_strcmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strcmp.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcmp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/tharle.dir/libft/ft_strcmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strcmp.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcmp.c"
 
 CMakeFiles/tharle.dir/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strcmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcmp.c" > CMakeFiles/tharle.dir/libft/ft_strcmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcmp.c" > CMakeFiles/tharle.dir/libft/ft_strcmp.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strcmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcmp.c" -o CMakeFiles/tharle.dir/libft/ft_strcmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcmp.c" -o CMakeFiles/tharle.dir/libft/ft_strcmp.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strcpy.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/tharle.dir/libft/ft_strcpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strcpy.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcpy.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/tharle.dir/libft/ft_strcpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strcpy.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcpy.c"
 
 CMakeFiles/tharle.dir/libft/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strcpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcpy.c" > CMakeFiles/tharle.dir/libft/ft_strcpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcpy.c" > CMakeFiles/tharle.dir/libft/ft_strcpy.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strcpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strcpy.c" -o CMakeFiles/tharle.dir/libft/ft_strcpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strcpy.c" -o CMakeFiles/tharle.dir/libft/ft_strcpy.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strdel.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/tharle.dir/libft/ft_strdel.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strdel.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strdel.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/tharle.dir/libft/ft_strdel.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strdel.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strdel.c"
 
 CMakeFiles/tharle.dir/libft/ft_strdel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strdel.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strdel.c" > CMakeFiles/tharle.dir/libft/ft_strdel.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strdel.c" > CMakeFiles/tharle.dir/libft/ft_strdel.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strdel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strdel.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strdel.c" -o CMakeFiles/tharle.dir/libft/ft_strdel.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strdel.c" -o CMakeFiles/tharle.dir/libft/ft_strdel.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strdup.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/tharle.dir/libft/ft_strdup.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strdup.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strdup.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/tharle.dir/libft/ft_strdup.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strdup.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strdup.c"
 
 CMakeFiles/tharle.dir/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strdup.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strdup.c" > CMakeFiles/tharle.dir/libft/ft_strdup.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strdup.c" > CMakeFiles/tharle.dir/libft/ft_strdup.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strdup.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strdup.c" -o CMakeFiles/tharle.dir/libft/ft_strdup.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strdup.c" -o CMakeFiles/tharle.dir/libft/ft_strdup.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strequ.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/tharle.dir/libft/ft_strequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strequ.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strequ.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/tharle.dir/libft/ft_strequ.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strequ.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strequ.c"
 
 CMakeFiles/tharle.dir/libft/ft_strequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strequ.c" > CMakeFiles/tharle.dir/libft/ft_strequ.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strequ.c" > CMakeFiles/tharle.dir/libft/ft_strequ.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strequ.c" -o CMakeFiles/tharle.dir/libft/ft_strequ.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strequ.c" -o CMakeFiles/tharle.dir/libft/ft_strequ.c.s
 
 CMakeFiles/tharle.dir/libft/ft_striter.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/tharle.dir/libft/ft_striter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_striter.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_striter.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/tharle.dir/libft/ft_striter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_striter.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_striter.c"
 
 CMakeFiles/tharle.dir/libft/ft_striter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_striter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_striter.c" > CMakeFiles/tharle.dir/libft/ft_striter.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_striter.c" > CMakeFiles/tharle.dir/libft/ft_striter.c.i
 
 CMakeFiles/tharle.dir/libft/ft_striter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_striter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_striter.c" -o CMakeFiles/tharle.dir/libft/ft_striter.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_striter.c" -o CMakeFiles/tharle.dir/libft/ft_striter.c.s
 
 CMakeFiles/tharle.dir/libft/ft_striteri.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/tharle.dir/libft/ft_striteri.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_striteri.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_striteri.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/tharle.dir/libft/ft_striteri.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_striteri.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_striteri.c"
 
 CMakeFiles/tharle.dir/libft/ft_striteri.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_striteri.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_striteri.c" > CMakeFiles/tharle.dir/libft/ft_striteri.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_striteri.c" > CMakeFiles/tharle.dir/libft/ft_striteri.c.i
 
 CMakeFiles/tharle.dir/libft/ft_striteri.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_striteri.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_striteri.c" -o CMakeFiles/tharle.dir/libft/ft_striteri.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_striteri.c" -o CMakeFiles/tharle.dir/libft/ft_striteri.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strjoin.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/tharle.dir/libft/ft_strjoin.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strjoin.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strjoin.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/tharle.dir/libft/ft_strjoin.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strjoin.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strjoin.c"
 
 CMakeFiles/tharle.dir/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strjoin.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strjoin.c" > CMakeFiles/tharle.dir/libft/ft_strjoin.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strjoin.c" > CMakeFiles/tharle.dir/libft/ft_strjoin.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strjoin.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strjoin.c" -o CMakeFiles/tharle.dir/libft/ft_strjoin.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strjoin.c" -o CMakeFiles/tharle.dir/libft/ft_strjoin.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strlcat.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/tharle.dir/libft/ft_strlcat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strlcat.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strlcat.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/tharle.dir/libft/ft_strlcat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strlcat.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strlcat.c"
 
 CMakeFiles/tharle.dir/libft/ft_strlcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strlcat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strlcat.c" > CMakeFiles/tharle.dir/libft/ft_strlcat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strlcat.c" > CMakeFiles/tharle.dir/libft/ft_strlcat.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strlcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strlcat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strlcat.c" -o CMakeFiles/tharle.dir/libft/ft_strlcat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strlcat.c" -o CMakeFiles/tharle.dir/libft/ft_strlcat.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strlen.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/tharle.dir/libft/ft_strlen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strlen.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strlen.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/tharle.dir/libft/ft_strlen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strlen.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strlen.c"
 
 CMakeFiles/tharle.dir/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strlen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strlen.c" > CMakeFiles/tharle.dir/libft/ft_strlen.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strlen.c" > CMakeFiles/tharle.dir/libft/ft_strlen.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strlen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strlen.c" -o CMakeFiles/tharle.dir/libft/ft_strlen.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strlen.c" -o CMakeFiles/tharle.dir/libft/ft_strlen.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strmap.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strmap.c.o: ../libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/tharle.dir/libft/ft_strmap.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strmap.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strmap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/tharle.dir/libft/ft_strmap.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strmap.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strmap.c"
 
 CMakeFiles/tharle.dir/libft/ft_strmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strmap.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strmap.c" > CMakeFiles/tharle.dir/libft/ft_strmap.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strmap.c" > CMakeFiles/tharle.dir/libft/ft_strmap.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strmap.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strmap.c" -o CMakeFiles/tharle.dir/libft/ft_strmap.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strmap.c" -o CMakeFiles/tharle.dir/libft/ft_strmap.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strmapi.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/tharle.dir/libft/ft_strmapi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strmapi.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strmapi.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/tharle.dir/libft/ft_strmapi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strmapi.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strmapi.c"
 
 CMakeFiles/tharle.dir/libft/ft_strmapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strmapi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strmapi.c" > CMakeFiles/tharle.dir/libft/ft_strmapi.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strmapi.c" > CMakeFiles/tharle.dir/libft/ft_strmapi.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strmapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strmapi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strmapi.c" -o CMakeFiles/tharle.dir/libft/ft_strmapi.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strmapi.c" -o CMakeFiles/tharle.dir/libft/ft_strmapi.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strncat.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/tharle.dir/libft/ft_strncat.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strncat.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncat.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/tharle.dir/libft/ft_strncat.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strncat.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncat.c"
 
 CMakeFiles/tharle.dir/libft/ft_strncat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strncat.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncat.c" > CMakeFiles/tharle.dir/libft/ft_strncat.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncat.c" > CMakeFiles/tharle.dir/libft/ft_strncat.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strncat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strncat.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncat.c" -o CMakeFiles/tharle.dir/libft/ft_strncat.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncat.c" -o CMakeFiles/tharle.dir/libft/ft_strncat.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strncmp.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/tharle.dir/libft/ft_strncmp.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strncmp.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncmp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/tharle.dir/libft/ft_strncmp.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strncmp.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncmp.c"
 
 CMakeFiles/tharle.dir/libft/ft_strncmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strncmp.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncmp.c" > CMakeFiles/tharle.dir/libft/ft_strncmp.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncmp.c" > CMakeFiles/tharle.dir/libft/ft_strncmp.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strncmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strncmp.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncmp.c" -o CMakeFiles/tharle.dir/libft/ft_strncmp.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncmp.c" -o CMakeFiles/tharle.dir/libft/ft_strncmp.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strncpy.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/tharle.dir/libft/ft_strncpy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strncpy.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncpy.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/tharle.dir/libft/ft_strncpy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strncpy.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncpy.c"
 
 CMakeFiles/tharle.dir/libft/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strncpy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncpy.c" > CMakeFiles/tharle.dir/libft/ft_strncpy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncpy.c" > CMakeFiles/tharle.dir/libft/ft_strncpy.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strncpy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strncpy.c" -o CMakeFiles/tharle.dir/libft/ft_strncpy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strncpy.c" -o CMakeFiles/tharle.dir/libft/ft_strncpy.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strnequ.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strnequ.c.o: ../libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/tharle.dir/libft/ft_strnequ.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strnequ.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnequ.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/tharle.dir/libft/ft_strnequ.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strnequ.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnequ.c"
 
 CMakeFiles/tharle.dir/libft/ft_strnequ.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strnequ.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnequ.c" > CMakeFiles/tharle.dir/libft/ft_strnequ.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnequ.c" > CMakeFiles/tharle.dir/libft/ft_strnequ.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strnequ.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strnequ.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnequ.c" -o CMakeFiles/tharle.dir/libft/ft_strnequ.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnequ.c" -o CMakeFiles/tharle.dir/libft/ft_strnequ.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strnew.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/tharle.dir/libft/ft_strnew.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strnew.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnew.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/tharle.dir/libft/ft_strnew.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strnew.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnew.c"
 
 CMakeFiles/tharle.dir/libft/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strnew.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnew.c" > CMakeFiles/tharle.dir/libft/ft_strnew.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnew.c" > CMakeFiles/tharle.dir/libft/ft_strnew.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strnew.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnew.c" -o CMakeFiles/tharle.dir/libft/ft_strnew.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnew.c" -o CMakeFiles/tharle.dir/libft/ft_strnew.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strnstr.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/tharle.dir/libft/ft_strnstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strnstr.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnstr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/tharle.dir/libft/ft_strnstr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strnstr.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnstr.c"
 
 CMakeFiles/tharle.dir/libft/ft_strnstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strnstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnstr.c" > CMakeFiles/tharle.dir/libft/ft_strnstr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnstr.c" > CMakeFiles/tharle.dir/libft/ft_strnstr.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strnstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strnstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strnstr.c" -o CMakeFiles/tharle.dir/libft/ft_strnstr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strnstr.c" -o CMakeFiles/tharle.dir/libft/ft_strnstr.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strrchr.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/tharle.dir/libft/ft_strrchr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strrchr.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strrchr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/tharle.dir/libft/ft_strrchr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strrchr.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strrchr.c"
 
 CMakeFiles/tharle.dir/libft/ft_strrchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strrchr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strrchr.c" > CMakeFiles/tharle.dir/libft/ft_strrchr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strrchr.c" > CMakeFiles/tharle.dir/libft/ft_strrchr.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strrchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strrchr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strrchr.c" -o CMakeFiles/tharle.dir/libft/ft_strrchr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strrchr.c" -o CMakeFiles/tharle.dir/libft/ft_strrchr.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strsplit.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/tharle.dir/libft/ft_strsplit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strsplit.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strsplit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/tharle.dir/libft/ft_strsplit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strsplit.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strsplit.c"
 
 CMakeFiles/tharle.dir/libft/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strsplit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strsplit.c" > CMakeFiles/tharle.dir/libft/ft_strsplit.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strsplit.c" > CMakeFiles/tharle.dir/libft/ft_strsplit.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strsplit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strsplit.c" -o CMakeFiles/tharle.dir/libft/ft_strsplit.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strsplit.c" -o CMakeFiles/tharle.dir/libft/ft_strsplit.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strstr.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/tharle.dir/libft/ft_strstr.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strstr.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strstr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/tharle.dir/libft/ft_strstr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strstr.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strstr.c"
 
 CMakeFiles/tharle.dir/libft/ft_strstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strstr.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strstr.c" > CMakeFiles/tharle.dir/libft/ft_strstr.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strstr.c" > CMakeFiles/tharle.dir/libft/ft_strstr.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strstr.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strstr.c" -o CMakeFiles/tharle.dir/libft/ft_strstr.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strstr.c" -o CMakeFiles/tharle.dir/libft/ft_strstr.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strsub.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/tharle.dir/libft/ft_strsub.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strsub.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strsub.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/tharle.dir/libft/ft_strsub.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strsub.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strsub.c"
 
 CMakeFiles/tharle.dir/libft/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strsub.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strsub.c" > CMakeFiles/tharle.dir/libft/ft_strsub.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strsub.c" > CMakeFiles/tharle.dir/libft/ft_strsub.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strsub.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strsub.c" -o CMakeFiles/tharle.dir/libft/ft_strsub.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strsub.c" -o CMakeFiles/tharle.dir/libft/ft_strsub.c.s
 
 CMakeFiles/tharle.dir/libft/ft_strtrim.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/tharle.dir/libft/ft_strtrim.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strtrim.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strtrim.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/tharle.dir/libft/ft_strtrim.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_strtrim.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strtrim.c"
 
 CMakeFiles/tharle.dir/libft/ft_strtrim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_strtrim.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strtrim.c" > CMakeFiles/tharle.dir/libft/ft_strtrim.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strtrim.c" > CMakeFiles/tharle.dir/libft/ft_strtrim.c.i
 
 CMakeFiles/tharle.dir/libft/ft_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_strtrim.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strtrim.c" -o CMakeFiles/tharle.dir/libft/ft_strtrim.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_strtrim.c" -o CMakeFiles/tharle.dir/libft/ft_strtrim.c.s
 
 CMakeFiles/tharle.dir/libft/ft_tolower.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/tharle.dir/libft/ft_tolower.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_tolower.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_tolower.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/tharle.dir/libft/ft_tolower.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_tolower.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_tolower.c"
 
 CMakeFiles/tharle.dir/libft/ft_tolower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_tolower.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_tolower.c" > CMakeFiles/tharle.dir/libft/ft_tolower.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_tolower.c" > CMakeFiles/tharle.dir/libft/ft_tolower.c.i
 
 CMakeFiles/tharle.dir/libft/ft_tolower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_tolower.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_tolower.c" -o CMakeFiles/tharle.dir/libft/ft_tolower.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_tolower.c" -o CMakeFiles/tharle.dir/libft/ft_tolower.c.s
 
 CMakeFiles/tharle.dir/libft/ft_toupper.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/tharle.dir/libft/ft_toupper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_toupper.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/libft/ft_toupper.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/tharle.dir/libft/ft_toupper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/libft/ft_toupper.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/libft/ft_toupper.c"
 
 CMakeFiles/tharle.dir/libft/ft_toupper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/libft/ft_toupper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/libft/ft_toupper.c" > CMakeFiles/tharle.dir/libft/ft_toupper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/libft/ft_toupper.c" > CMakeFiles/tharle.dir/libft/ft_toupper.c.i
 
 CMakeFiles/tharle.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_toupper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_toupper.c" -o CMakeFiles/tharle.dir/libft/ft_toupper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/libft/ft_toupper.c" -o CMakeFiles/tharle.dir/libft/ft_toupper.c.s
 
 CMakeFiles/tharle.dir/srcs/extra_func_2.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/srcs/extra_func_2.c.o: ../srcs/extra_func_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/tharle.dir/srcs/extra_func_2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/extra_func_2.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/tharle.dir/srcs/extra_func_2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/extra_func_2.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/srcs/extra_func_2.c"
 
 CMakeFiles/tharle.dir/srcs/extra_func_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/extra_func_2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_2.c" > CMakeFiles/tharle.dir/srcs/extra_func_2.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/srcs/extra_func_2.c" > CMakeFiles/tharle.dir/srcs/extra_func_2.c.i
 
 CMakeFiles/tharle.dir/srcs/extra_func_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/extra_func_2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_2.c" -o CMakeFiles/tharle.dir/srcs/extra_func_2.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/srcs/extra_func_2.c" -o CMakeFiles/tharle.dir/srcs/extra_func_2.c.s
 
 CMakeFiles/tharle.dir/srcs/tetr_checks.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/srcs/tetr_checks.c.o: ../srcs/tetr_checks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/tharle.dir/srcs/tetr_checks.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/tetr_checks.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_checks.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/tharle.dir/srcs/tetr_checks.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/tetr_checks.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/srcs/tetr_checks.c"
 
 CMakeFiles/tharle.dir/srcs/tetr_checks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/tetr_checks.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_checks.c" > CMakeFiles/tharle.dir/srcs/tetr_checks.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/srcs/tetr_checks.c" > CMakeFiles/tharle.dir/srcs/tetr_checks.c.i
 
 CMakeFiles/tharle.dir/srcs/tetr_checks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/tetr_checks.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_checks.c" -o CMakeFiles/tharle.dir/srcs/tetr_checks.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/srcs/tetr_checks.c" -o CMakeFiles/tharle.dir/srcs/tetr_checks.c.s
 
 CMakeFiles/tharle.dir/srcs/extra_func_1.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/srcs/extra_func_1.c.o: ../srcs/extra_func_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/tharle.dir/srcs/extra_func_1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/extra_func_1.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/tharle.dir/srcs/extra_func_1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/extra_func_1.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/srcs/extra_func_1.c"
 
 CMakeFiles/tharle.dir/srcs/extra_func_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/extra_func_1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_1.c" > CMakeFiles/tharle.dir/srcs/extra_func_1.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/srcs/extra_func_1.c" > CMakeFiles/tharle.dir/srcs/extra_func_1.c.i
 
 CMakeFiles/tharle.dir/srcs/extra_func_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/extra_func_1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_1.c" -o CMakeFiles/tharle.dir/srcs/extra_func_1.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/srcs/extra_func_1.c" -o CMakeFiles/tharle.dir/srcs/extra_func_1.c.s
 
 CMakeFiles/tharle.dir/srcs/get_next_line.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/srcs/get_next_line.c.o: ../srcs/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/tharle.dir/srcs/get_next_line.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/get_next_line.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/get_next_line.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/tharle.dir/srcs/get_next_line.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/get_next_line.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/srcs/get_next_line.c"
 
 CMakeFiles/tharle.dir/srcs/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/get_next_line.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/get_next_line.c" > CMakeFiles/tharle.dir/srcs/get_next_line.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/srcs/get_next_line.c" > CMakeFiles/tharle.dir/srcs/get_next_line.c.i
 
 CMakeFiles/tharle.dir/srcs/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/get_next_line.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/get_next_line.c" -o CMakeFiles/tharle.dir/srcs/get_next_line.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/srcs/get_next_line.c" -o CMakeFiles/tharle.dir/srcs/get_next_line.c.s
 
 CMakeFiles/tharle.dir/srcs/main.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/srcs/main.c.o: ../srcs/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/tharle.dir/srcs/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/main.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/tharle.dir/srcs/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/main.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/srcs/main.c"
 
 CMakeFiles/tharle.dir/srcs/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/main.c" > CMakeFiles/tharle.dir/srcs/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/srcs/main.c" > CMakeFiles/tharle.dir/srcs/main.c.i
 
 CMakeFiles/tharle.dir/srcs/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/main.c" -o CMakeFiles/tharle.dir/srcs/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/srcs/main.c" -o CMakeFiles/tharle.dir/srcs/main.c.s
 
 CMakeFiles/tharle.dir/srcs/map_print.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/srcs/map_print.c.o: ../srcs/map_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/tharle.dir/srcs/map_print.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/map_print.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/map_print.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/tharle.dir/srcs/map_print.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/map_print.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/srcs/map_print.c"
 
 CMakeFiles/tharle.dir/srcs/map_print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/map_print.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/map_print.c" > CMakeFiles/tharle.dir/srcs/map_print.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/srcs/map_print.c" > CMakeFiles/tharle.dir/srcs/map_print.c.i
 
 CMakeFiles/tharle.dir/srcs/map_print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/map_print.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/map_print.c" -o CMakeFiles/tharle.dir/srcs/map_print.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/srcs/map_print.c" -o CMakeFiles/tharle.dir/srcs/map_print.c.s
 
 CMakeFiles/tharle.dir/srcs/tetr_solve.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/srcs/tetr_solve.c.o: ../srcs/tetr_solve.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/tharle.dir/srcs/tetr_solve.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/tetr_solve.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_solve.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/tharle.dir/srcs/tetr_solve.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/tetr_solve.c.o   -c "/home/tharle/Рабочий стол/21/fillit3/srcs/tetr_solve.c"
 
 CMakeFiles/tharle.dir/srcs/tetr_solve.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/tetr_solve.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_solve.c" > CMakeFiles/tharle.dir/srcs/tetr_solve.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit3/srcs/tetr_solve.c" > CMakeFiles/tharle.dir/srcs/tetr_solve.c.i
 
 CMakeFiles/tharle.dir/srcs/tetr_solve.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/tetr_solve.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_solve.c" -o CMakeFiles/tharle.dir/srcs/tetr_solve.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit3/srcs/tetr_solve.c" -o CMakeFiles/tharle.dir/srcs/tetr_solve.c.s
 
 # Object files for target tharle
 tharle_OBJECTS = \
@@ -1130,7 +1130,7 @@ tharle: CMakeFiles/tharle.dir/srcs/map_print.c.o
 tharle: CMakeFiles/tharle.dir/srcs/tetr_solve.c.o
 tharle: CMakeFiles/tharle.dir/build.make
 tharle: CMakeFiles/tharle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable tharle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable tharle"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tharle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1143,6 +1143,6 @@ CMakeFiles/tharle.dir/clean:
 .PHONY : CMakeFiles/tharle.dir/clean
 
 CMakeFiles/tharle.dir/depend:
-	cd "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/tharle/Рабочий стол/21/fillit2" "/home/tharle/Рабочий стол/21/fillit2" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/tharle/Рабочий стол/21/fillit3" "/home/tharle/Рабочий стол/21/fillit3" "/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug" "/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug" "/home/tharle/Рабочий стол/21/fillit3/cmake-build-debug/CMakeFiles/tharle.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/tharle.dir/depend
 

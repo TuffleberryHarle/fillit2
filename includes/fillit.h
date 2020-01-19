@@ -23,11 +23,11 @@ typedef struct	s_figure
 	int			*y;
 }				t_figure;
 
-char			**dots_set(int total);
-int				get_start_total(int count);
+char			**dots_set(unsigned total);
+unsigned				get_start_total(unsigned count);
 t_list			*get_item(t_list *figures, int current_item);
 void			clear(int total, char **map, char c);
-char			**tetr_solve(t_list *figures, int count);
+char			**tetr_solve(t_list *figures, unsigned count);
 void			map_print(char **map);
 void			map_clear(char **map);
 int				connect_check(unsigned *r, unsigned *c, unsigned *num, char **file);
