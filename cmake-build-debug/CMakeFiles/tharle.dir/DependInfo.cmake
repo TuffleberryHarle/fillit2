@@ -68,13 +68,13 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/tharle/Рабочий стол/21/fillit2/libft/ft_strtrim.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/libft/ft_strtrim.c.o"
   "/home/tharle/Рабочий стол/21/fillit2/libft/ft_tolower.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/libft/ft_tolower.c.o"
   "/home/tharle/Рабочий стол/21/fillit2/libft/ft_toupper.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/libft/ft_toupper.c.o"
-  "/home/tharle/Рабочий стол/21/fillit2/srcs/1.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/1.c.o"
-  "/home/tharle/Рабочий стол/21/fillit2/srcs/2.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/2.c.o"
-  "/home/tharle/Рабочий стол/21/fillit2/srcs/add_func.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/add_func.c.o"
+  "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_1.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/extra_func_1.c.o"
+  "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_2.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/extra_func_2.c.o"
   "/home/tharle/Рабочий стол/21/fillit2/srcs/get_next_line.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/get_next_line.c.o"
   "/home/tharle/Рабочий стол/21/fillit2/srcs/main.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/main.c.o"
-  "/home/tharle/Рабочий стол/21/fillit2/srcs/print_map.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/print_map.c.o"
-  "/home/tharle/Рабочий стол/21/fillit2/srcs/solve_tetris.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/solve_tetris.c.o"
+  "/home/tharle/Рабочий стол/21/fillit2/srcs/map_print.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/map_print.c.o"
+  "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_checks.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/tetr_checks.c.o"
+  "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_solve.c" "/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles/tharle.dir/srcs/tetr_solve.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

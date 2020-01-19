@@ -889,44 +889,44 @@ CMakeFiles/tharle.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/libft/ft_toupper.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/libft/ft_toupper.c" -o CMakeFiles/tharle.dir/libft/ft_toupper.c.s
 
-CMakeFiles/tharle.dir/srcs/add_func.c.o: CMakeFiles/tharle.dir/flags.make
-CMakeFiles/tharle.dir/srcs/add_func.c.o: ../srcs/add_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/tharle.dir/srcs/add_func.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/add_func.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/add_func.c"
+CMakeFiles/tharle.dir/srcs/extra_func_2.c.o: CMakeFiles/tharle.dir/flags.make
+CMakeFiles/tharle.dir/srcs/extra_func_2.c.o: ../srcs/extra_func_2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/tharle.dir/srcs/extra_func_2.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/extra_func_2.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_2.c"
 
-CMakeFiles/tharle.dir/srcs/add_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/add_func.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/add_func.c" > CMakeFiles/tharle.dir/srcs/add_func.c.i
+CMakeFiles/tharle.dir/srcs/extra_func_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/extra_func_2.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_2.c" > CMakeFiles/tharle.dir/srcs/extra_func_2.c.i
 
-CMakeFiles/tharle.dir/srcs/add_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/add_func.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/add_func.c" -o CMakeFiles/tharle.dir/srcs/add_func.c.s
+CMakeFiles/tharle.dir/srcs/extra_func_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/extra_func_2.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_2.c" -o CMakeFiles/tharle.dir/srcs/extra_func_2.c.s
 
-CMakeFiles/tharle.dir/srcs/1.c.o: CMakeFiles/tharle.dir/flags.make
-CMakeFiles/tharle.dir/srcs/1.c.o: ../srcs/1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/tharle.dir/srcs/1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/1.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/1.c"
+CMakeFiles/tharle.dir/srcs/tetr_checks.c.o: CMakeFiles/tharle.dir/flags.make
+CMakeFiles/tharle.dir/srcs/tetr_checks.c.o: ../srcs/tetr_checks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/tharle.dir/srcs/tetr_checks.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/tetr_checks.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_checks.c"
 
-CMakeFiles/tharle.dir/srcs/1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/1.c" > CMakeFiles/tharle.dir/srcs/1.c.i
+CMakeFiles/tharle.dir/srcs/tetr_checks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/tetr_checks.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_checks.c" > CMakeFiles/tharle.dir/srcs/tetr_checks.c.i
 
-CMakeFiles/tharle.dir/srcs/1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/1.c" -o CMakeFiles/tharle.dir/srcs/1.c.s
+CMakeFiles/tharle.dir/srcs/tetr_checks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/tetr_checks.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_checks.c" -o CMakeFiles/tharle.dir/srcs/tetr_checks.c.s
 
-CMakeFiles/tharle.dir/srcs/2.c.o: CMakeFiles/tharle.dir/flags.make
-CMakeFiles/tharle.dir/srcs/2.c.o: ../srcs/2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/tharle.dir/srcs/2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/2.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/2.c"
+CMakeFiles/tharle.dir/srcs/extra_func_1.c.o: CMakeFiles/tharle.dir/flags.make
+CMakeFiles/tharle.dir/srcs/extra_func_1.c.o: ../srcs/extra_func_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/tharle.dir/srcs/extra_func_1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/extra_func_1.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_1.c"
 
-CMakeFiles/tharle.dir/srcs/2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/2.c" > CMakeFiles/tharle.dir/srcs/2.c.i
+CMakeFiles/tharle.dir/srcs/extra_func_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/extra_func_1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_1.c" > CMakeFiles/tharle.dir/srcs/extra_func_1.c.i
 
-CMakeFiles/tharle.dir/srcs/2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/2.c" -o CMakeFiles/tharle.dir/srcs/2.c.s
+CMakeFiles/tharle.dir/srcs/extra_func_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/extra_func_1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_1.c" -o CMakeFiles/tharle.dir/srcs/extra_func_1.c.s
 
 CMakeFiles/tharle.dir/srcs/get_next_line.c.o: CMakeFiles/tharle.dir/flags.make
 CMakeFiles/tharle.dir/srcs/get_next_line.c.o: ../srcs/get_next_line.c
@@ -954,31 +954,31 @@ CMakeFiles/tharle.dir/srcs/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/main.c" -o CMakeFiles/tharle.dir/srcs/main.c.s
 
-CMakeFiles/tharle.dir/srcs/print_map.c.o: CMakeFiles/tharle.dir/flags.make
-CMakeFiles/tharle.dir/srcs/print_map.c.o: ../srcs/print_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/tharle.dir/srcs/print_map.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/print_map.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/print_map.c"
+CMakeFiles/tharle.dir/srcs/map_print.c.o: CMakeFiles/tharle.dir/flags.make
+CMakeFiles/tharle.dir/srcs/map_print.c.o: ../srcs/map_print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/tharle.dir/srcs/map_print.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/map_print.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/map_print.c"
 
-CMakeFiles/tharle.dir/srcs/print_map.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/print_map.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/print_map.c" > CMakeFiles/tharle.dir/srcs/print_map.c.i
+CMakeFiles/tharle.dir/srcs/map_print.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/map_print.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/map_print.c" > CMakeFiles/tharle.dir/srcs/map_print.c.i
 
-CMakeFiles/tharle.dir/srcs/print_map.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/print_map.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/print_map.c" -o CMakeFiles/tharle.dir/srcs/print_map.c.s
+CMakeFiles/tharle.dir/srcs/map_print.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/map_print.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/map_print.c" -o CMakeFiles/tharle.dir/srcs/map_print.c.s
 
-CMakeFiles/tharle.dir/srcs/solve_tetris.c.o: CMakeFiles/tharle.dir/flags.make
-CMakeFiles/tharle.dir/srcs/solve_tetris.c.o: ../srcs/solve_tetris.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/tharle.dir/srcs/solve_tetris.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/solve_tetris.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/solve_tetris.c"
+CMakeFiles/tharle.dir/srcs/tetr_solve.c.o: CMakeFiles/tharle.dir/flags.make
+CMakeFiles/tharle.dir/srcs/tetr_solve.c.o: ../srcs/tetr_solve.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/tharle.dir/srcs/tetr_solve.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tharle.dir/srcs/tetr_solve.c.o   -c "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_solve.c"
 
-CMakeFiles/tharle.dir/srcs/solve_tetris.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/solve_tetris.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/solve_tetris.c" > CMakeFiles/tharle.dir/srcs/solve_tetris.c.i
+CMakeFiles/tharle.dir/srcs/tetr_solve.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tharle.dir/srcs/tetr_solve.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_solve.c" > CMakeFiles/tharle.dir/srcs/tetr_solve.c.i
 
-CMakeFiles/tharle.dir/srcs/solve_tetris.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/solve_tetris.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/solve_tetris.c" -o CMakeFiles/tharle.dir/srcs/solve_tetris.c.s
+CMakeFiles/tharle.dir/srcs/tetr_solve.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tharle.dir/srcs/tetr_solve.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_solve.c" -o CMakeFiles/tharle.dir/srcs/tetr_solve.c.s
 
 # Object files for target tharle
 tharle_OBJECTS = \
@@ -1046,13 +1046,13 @@ tharle_OBJECTS = \
 "CMakeFiles/tharle.dir/libft/ft_strtrim.c.o" \
 "CMakeFiles/tharle.dir/libft/ft_tolower.c.o" \
 "CMakeFiles/tharle.dir/libft/ft_toupper.c.o" \
-"CMakeFiles/tharle.dir/srcs/add_func.c.o" \
-"CMakeFiles/tharle.dir/srcs/1.c.o" \
-"CMakeFiles/tharle.dir/srcs/2.c.o" \
+"CMakeFiles/tharle.dir/srcs/extra_func_2.c.o" \
+"CMakeFiles/tharle.dir/srcs/tetr_checks.c.o" \
+"CMakeFiles/tharle.dir/srcs/extra_func_1.c.o" \
 "CMakeFiles/tharle.dir/srcs/get_next_line.c.o" \
 "CMakeFiles/tharle.dir/srcs/main.c.o" \
-"CMakeFiles/tharle.dir/srcs/print_map.c.o" \
-"CMakeFiles/tharle.dir/srcs/solve_tetris.c.o"
+"CMakeFiles/tharle.dir/srcs/map_print.c.o" \
+"CMakeFiles/tharle.dir/srcs/tetr_solve.c.o"
 
 # External object files for target tharle
 tharle_EXTERNAL_OBJECTS =
@@ -1121,13 +1121,13 @@ tharle: CMakeFiles/tharle.dir/libft/ft_strsub.c.o
 tharle: CMakeFiles/tharle.dir/libft/ft_strtrim.c.o
 tharle: CMakeFiles/tharle.dir/libft/ft_tolower.c.o
 tharle: CMakeFiles/tharle.dir/libft/ft_toupper.c.o
-tharle: CMakeFiles/tharle.dir/srcs/add_func.c.o
-tharle: CMakeFiles/tharle.dir/srcs/1.c.o
-tharle: CMakeFiles/tharle.dir/srcs/2.c.o
+tharle: CMakeFiles/tharle.dir/srcs/extra_func_2.c.o
+tharle: CMakeFiles/tharle.dir/srcs/tetr_checks.c.o
+tharle: CMakeFiles/tharle.dir/srcs/extra_func_1.c.o
 tharle: CMakeFiles/tharle.dir/srcs/get_next_line.c.o
 tharle: CMakeFiles/tharle.dir/srcs/main.c.o
-tharle: CMakeFiles/tharle.dir/srcs/print_map.c.o
-tharle: CMakeFiles/tharle.dir/srcs/solve_tetris.c.o
+tharle: CMakeFiles/tharle.dir/srcs/map_print.c.o
+tharle: CMakeFiles/tharle.dir/srcs/tetr_solve.c.o
 tharle: CMakeFiles/tharle.dir/build.make
 tharle: CMakeFiles/tharle.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/tharle/Рабочий стол/21/fillit2/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Linking C executable tharle"

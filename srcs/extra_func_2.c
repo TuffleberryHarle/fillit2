@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   print_map.c                                        :+:      :+:    :+:   */
+/*   add_func.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tharle <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -12,44 +12,73 @@
 
 #include "fillit.h"
 
-void	print_map(char **map)
+void	clear(int total, char **map, char c)
 {
-	int		i;
+	int x;
+	int y;
 
-	i = 0;
-	while (map[i])
+	x = 0;
+	y = 0;
+	while (y < total)
 	{
-		ft_putstr(map[i++]);
-		ft_putchar('\n');
+		while (x < total)
+		{
+			if (map[y][x] == c)
+				map[y][x] = '.';
+			x++;
+		}
+		x = 0;
+		y++;
 	}
 }
 
-void	clear_map(char **map)
-{
-	int		i;
-
-	i = 0;
-	while (map[i])
-	{
-		ft_strdel(&map[i]);
-		i++;
-	}
-	free(map);
-}
-
-void	clear_list(t_list **figures)
+t_list	*get_item(t_list *figures, int current_item)
 {
 	t_list	*tmp;
-	t_list	*tmp1;
+	int		i;
 
-	tmp = *figures;
-	if (tmp)
+	i = 0;
+	tmp = figures;
+	while (i < current_item)
 	{
-		while (tmp)
-		{
-			tmp1 = tmp->next;
-			free(tmp);
-			tmp = tmp1;
-		}
+		tmp = tmp->next;
+		i++;
 	}
+	return (tmp);
+}
+
+int		get_start_total(int count)
+{
+	int		total;
+	int		i;
+
+	i = 2;
+	total = 0;
+	while (i < 11)
+	{
+		if (i * i >= count * 4)
+		{
+			total = i;
+			break ;
+		}
+		i++;
+	}
+	return (total);
+}
+
+char	**dots_set(int total)
+{
+	char	**map;
+	int		i;
+
+	i = 0;
+	map = (char**)malloc(sizeof(char*) * (total + 1));
+	while (i < total)
+	{
+		map[i] = ft_strnew(total);
+		ft_memset(map[i], '.', total);
+		i++;
+	}
+	map[i] = 0;
+	return (map);
 }

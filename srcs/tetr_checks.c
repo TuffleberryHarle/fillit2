@@ -6,9 +6,9 @@ int				ext_num;
 
 int		tetr_verify(char **figure)
 {
-	int			row;
-	int			col;
-	int			num;
+	unsigned			row;
+	unsigned			col;
+	unsigned			num;
 	
 	row = 0;
 	col = 0;
@@ -27,7 +27,7 @@ int		tetr_verify(char **figure)
 	}
 	row = 0;
 	ext_num = -1;
-	if (num == 4 && conect_check(&row, &col, &num, figure))
+	if (num == 4 && connect_check(&row, &col, &num, figure))
 		return (1);
 	return (0);
 }
@@ -57,11 +57,11 @@ void	tetr_array(char **figure, t_figure *fig, int *first, int *ext_k)
 			}
 		}
 		ext_j = -1;
-		*ext_k += 1; /++
+		(*ext_k)++;
 	}
 }
 
-int		tetr_check2(char **figure, t_list **figures, int *fig_num, int *i)
+int		tetr_check2(char **figure, t_list **figures, unsigned *fig_num, unsigned *i)
 {
 	int			*first;
 	t_figure	*fig;
@@ -78,7 +78,7 @@ int		tetr_check2(char **figure, t_list **figures, int *fig_num, int *i)
 			return (0);
 		*i = 0;
 		tetr_array(figure, fig, first, &ext_k);
-		correct_coord(fig, figures, first);
+		coord_correct(fig, figures, first);
 		(*fig_num)++;
 		while (*i < 4)
 		{
@@ -90,9 +90,9 @@ int		tetr_check2(char **figure, t_list **figures, int *fig_num, int *i)
 	return (1);
 }
 
-int		tetr_check1(char **line, int *row, char **figure, int *i)
+int		tetr_check1(char **line, unsigned *row, char **figure, unsigned *i)
 {
-	static int tetr;
+	static unsigned tetr;
 	
 	if (*row < 5 && tetr == 0)
 		tetr = 0;
@@ -119,20 +119,20 @@ int		tetr_check1(char **line, int *row, char **figure, int *i)
 	return (1);
 }
 
-int		is_valid(int ac, char **av, int *fig_num, t_list **figures)
+int		is_valid(int ac, char **av, unsigned *fig_num, t_list **figures)
 {
 	int			fd;
 	char		*line;
 	char		**figure;
-	int			row;
-	int			i;
+	unsigned			row;
+	unsigned			i;
 	
 	i = 0;
 	row = 1;
 	figure = NULL;
 	if (ac != 2)
 		return (0);
-	fd = open("samples/1", O_RDONLY);
+	fd = open(av[1], O_RDONLY);
 	while (get_next_line(fd, &line) > 0 && row < 6)
 	{
 		if (row == 1)

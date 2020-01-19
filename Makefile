@@ -15,13 +15,13 @@ NAME = fillit
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS =	srcs/add_func.c \
-		srcs/2.c \
+SRCS =	srcs/extra_func_1.c \
+		srcs/extra_func_2.c \
 		srcs/get_next_line.c \
 		srcs/main.c \
-		srcs/print_map.c \
-		srcs/1.c \
-		srcs/solve_tetris.c 
+		srcs/map_print.c \
+		srcs/tetr_checks.c \
+		srcs/tetr_solve.c
 
 OBJS = $(subst .c,.o,$(subst srcs/,,$(SRCS)))
 

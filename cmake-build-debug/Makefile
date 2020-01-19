@@ -1851,86 +1851,59 @@ libft/ft_toupper.c.s:
 	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-srcs/1.o: srcs/1.c.o
+srcs/extra_func_1.o: srcs/extra_func_1.c.o
 
-.PHONY : srcs/1.o
-
-# target to build an object file
-srcs/1.c.o:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/1.c.o
-.PHONY : srcs/1.c.o
-
-srcs/1.i: srcs/1.c.i
-
-.PHONY : srcs/1.i
-
-# target to preprocess a source file
-srcs/1.c.i:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/1.c.i
-.PHONY : srcs/1.c.i
-
-srcs/1.s: srcs/1.c.s
-
-.PHONY : srcs/1.s
-
-# target to generate assembly for a file
-srcs/1.c.s:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/1.c.s
-.PHONY : srcs/1.c.s
-
-srcs/2.o: srcs/2.c.o
-
-.PHONY : srcs/2.o
+.PHONY : srcs/extra_func_1.o
 
 # target to build an object file
-srcs/2.c.o:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/2.c.o
-.PHONY : srcs/2.c.o
+srcs/extra_func_1.c.o:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/extra_func_1.c.o
+.PHONY : srcs/extra_func_1.c.o
 
-srcs/2.i: srcs/2.c.i
+srcs/extra_func_1.i: srcs/extra_func_1.c.i
 
-.PHONY : srcs/2.i
+.PHONY : srcs/extra_func_1.i
 
 # target to preprocess a source file
-srcs/2.c.i:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/2.c.i
-.PHONY : srcs/2.c.i
+srcs/extra_func_1.c.i:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/extra_func_1.c.i
+.PHONY : srcs/extra_func_1.c.i
 
-srcs/2.s: srcs/2.c.s
+srcs/extra_func_1.s: srcs/extra_func_1.c.s
 
-.PHONY : srcs/2.s
+.PHONY : srcs/extra_func_1.s
 
 # target to generate assembly for a file
-srcs/2.c.s:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/2.c.s
-.PHONY : srcs/2.c.s
+srcs/extra_func_1.c.s:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/extra_func_1.c.s
+.PHONY : srcs/extra_func_1.c.s
 
-srcs/add_func.o: srcs/add_func.c.o
+srcs/extra_func_2.o: srcs/extra_func_2.c.o
 
-.PHONY : srcs/add_func.o
+.PHONY : srcs/extra_func_2.o
 
 # target to build an object file
-srcs/add_func.c.o:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/add_func.c.o
-.PHONY : srcs/add_func.c.o
+srcs/extra_func_2.c.o:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/extra_func_2.c.o
+.PHONY : srcs/extra_func_2.c.o
 
-srcs/add_func.i: srcs/add_func.c.i
+srcs/extra_func_2.i: srcs/extra_func_2.c.i
 
-.PHONY : srcs/add_func.i
+.PHONY : srcs/extra_func_2.i
 
 # target to preprocess a source file
-srcs/add_func.c.i:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/add_func.c.i
-.PHONY : srcs/add_func.c.i
+srcs/extra_func_2.c.i:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/extra_func_2.c.i
+.PHONY : srcs/extra_func_2.c.i
 
-srcs/add_func.s: srcs/add_func.c.s
+srcs/extra_func_2.s: srcs/extra_func_2.c.s
 
-.PHONY : srcs/add_func.s
+.PHONY : srcs/extra_func_2.s
 
 # target to generate assembly for a file
-srcs/add_func.c.s:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/add_func.c.s
-.PHONY : srcs/add_func.c.s
+srcs/extra_func_2.c.s:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/extra_func_2.c.s
+.PHONY : srcs/extra_func_2.c.s
 
 srcs/get_next_line.o: srcs/get_next_line.c.o
 
@@ -1986,59 +1959,86 @@ srcs/main.c.s:
 	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/main.c.s
 .PHONY : srcs/main.c.s
 
-srcs/print_map.o: srcs/print_map.c.o
+srcs/map_print.o: srcs/map_print.c.o
 
-.PHONY : srcs/print_map.o
-
-# target to build an object file
-srcs/print_map.c.o:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/print_map.c.o
-.PHONY : srcs/print_map.c.o
-
-srcs/print_map.i: srcs/print_map.c.i
-
-.PHONY : srcs/print_map.i
-
-# target to preprocess a source file
-srcs/print_map.c.i:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/print_map.c.i
-.PHONY : srcs/print_map.c.i
-
-srcs/print_map.s: srcs/print_map.c.s
-
-.PHONY : srcs/print_map.s
-
-# target to generate assembly for a file
-srcs/print_map.c.s:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/print_map.c.s
-.PHONY : srcs/print_map.c.s
-
-srcs/solve_tetris.o: srcs/solve_tetris.c.o
-
-.PHONY : srcs/solve_tetris.o
+.PHONY : srcs/map_print.o
 
 # target to build an object file
-srcs/solve_tetris.c.o:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/solve_tetris.c.o
-.PHONY : srcs/solve_tetris.c.o
+srcs/map_print.c.o:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/map_print.c.o
+.PHONY : srcs/map_print.c.o
 
-srcs/solve_tetris.i: srcs/solve_tetris.c.i
+srcs/map_print.i: srcs/map_print.c.i
 
-.PHONY : srcs/solve_tetris.i
+.PHONY : srcs/map_print.i
 
 # target to preprocess a source file
-srcs/solve_tetris.c.i:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/solve_tetris.c.i
-.PHONY : srcs/solve_tetris.c.i
+srcs/map_print.c.i:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/map_print.c.i
+.PHONY : srcs/map_print.c.i
 
-srcs/solve_tetris.s: srcs/solve_tetris.c.s
+srcs/map_print.s: srcs/map_print.c.s
 
-.PHONY : srcs/solve_tetris.s
+.PHONY : srcs/map_print.s
 
 # target to generate assembly for a file
-srcs/solve_tetris.c.s:
-	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/solve_tetris.c.s
-.PHONY : srcs/solve_tetris.c.s
+srcs/map_print.c.s:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/map_print.c.s
+.PHONY : srcs/map_print.c.s
+
+srcs/tetr_checks.o: srcs/tetr_checks.c.o
+
+.PHONY : srcs/tetr_checks.o
+
+# target to build an object file
+srcs/tetr_checks.c.o:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/tetr_checks.c.o
+.PHONY : srcs/tetr_checks.c.o
+
+srcs/tetr_checks.i: srcs/tetr_checks.c.i
+
+.PHONY : srcs/tetr_checks.i
+
+# target to preprocess a source file
+srcs/tetr_checks.c.i:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/tetr_checks.c.i
+.PHONY : srcs/tetr_checks.c.i
+
+srcs/tetr_checks.s: srcs/tetr_checks.c.s
+
+.PHONY : srcs/tetr_checks.s
+
+# target to generate assembly for a file
+srcs/tetr_checks.c.s:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/tetr_checks.c.s
+.PHONY : srcs/tetr_checks.c.s
+
+srcs/tetr_solve.o: srcs/tetr_solve.c.o
+
+.PHONY : srcs/tetr_solve.o
+
+# target to build an object file
+srcs/tetr_solve.c.o:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/tetr_solve.c.o
+.PHONY : srcs/tetr_solve.c.o
+
+srcs/tetr_solve.i: srcs/tetr_solve.c.i
+
+.PHONY : srcs/tetr_solve.i
+
+# target to preprocess a source file
+srcs/tetr_solve.c.i:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/tetr_solve.c.i
+.PHONY : srcs/tetr_solve.c.i
+
+srcs/tetr_solve.s: srcs/tetr_solve.c.s
+
+.PHONY : srcs/tetr_solve.s
+
+# target to generate assembly for a file
+srcs/tetr_solve.c.s:
+	$(MAKE) -f CMakeFiles/tharle.dir/build.make CMakeFiles/tharle.dir/srcs/tetr_solve.c.s
+.PHONY : srcs/tetr_solve.c.s
 
 # Help Target
 help:
@@ -2241,27 +2241,27 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... srcs/1.o"
-	@echo "... srcs/1.i"
-	@echo "... srcs/1.s"
-	@echo "... srcs/2.o"
-	@echo "... srcs/2.i"
-	@echo "... srcs/2.s"
-	@echo "... srcs/add_func.o"
-	@echo "... srcs/add_func.i"
-	@echo "... srcs/add_func.s"
+	@echo "... srcs/extra_func_1.o"
+	@echo "... srcs/extra_func_1.i"
+	@echo "... srcs/extra_func_1.s"
+	@echo "... srcs/extra_func_2.o"
+	@echo "... srcs/extra_func_2.i"
+	@echo "... srcs/extra_func_2.s"
 	@echo "... srcs/get_next_line.o"
 	@echo "... srcs/get_next_line.i"
 	@echo "... srcs/get_next_line.s"
 	@echo "... srcs/main.o"
 	@echo "... srcs/main.i"
 	@echo "... srcs/main.s"
-	@echo "... srcs/print_map.o"
-	@echo "... srcs/print_map.i"
-	@echo "... srcs/print_map.s"
-	@echo "... srcs/solve_tetris.o"
-	@echo "... srcs/solve_tetris.i"
-	@echo "... srcs/solve_tetris.s"
+	@echo "... srcs/map_print.o"
+	@echo "... srcs/map_print.i"
+	@echo "... srcs/map_print.s"
+	@echo "... srcs/tetr_checks.o"
+	@echo "... srcs/tetr_checks.i"
+	@echo "... srcs/tetr_checks.s"
+	@echo "... srcs/tetr_solve.o"
+	@echo "... srcs/tetr_solve.i"
+	@echo "... srcs/tetr_solve.s"
 .PHONY : help
 
 

@@ -191,20 +191,15 @@ CMakeFiles/tharle.dir/libft/ft_tolower.c.o: ../libft/libft.h
 CMakeFiles/tharle.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
 CMakeFiles/tharle.dir/libft/ft_toupper.c.o: ../libft/libft.h
 
-CMakeFiles/tharle.dir/srcs/1.c.o: ../includes/fillit.h
-CMakeFiles/tharle.dir/srcs/1.c.o: ../includes/get_next_line.h
-CMakeFiles/tharle.dir/srcs/1.c.o: ../includes/libft.h
-CMakeFiles/tharle.dir/srcs/1.c.o: ../srcs/1.c
+CMakeFiles/tharle.dir/srcs/extra_func_1.c.o: ../includes/fillit.h
+CMakeFiles/tharle.dir/srcs/extra_func_1.c.o: ../includes/get_next_line.h
+CMakeFiles/tharle.dir/srcs/extra_func_1.c.o: ../includes/libft.h
+CMakeFiles/tharle.dir/srcs/extra_func_1.c.o: ../srcs/extra_func_1.c
 
-CMakeFiles/tharle.dir/srcs/2.c.o: ../includes/fillit.h
-CMakeFiles/tharle.dir/srcs/2.c.o: ../includes/get_next_line.h
-CMakeFiles/tharle.dir/srcs/2.c.o: ../includes/libft.h
-CMakeFiles/tharle.dir/srcs/2.c.o: ../srcs/2.c
-
-CMakeFiles/tharle.dir/srcs/add_func.c.o: ../includes/fillit.h
-CMakeFiles/tharle.dir/srcs/add_func.c.o: ../includes/get_next_line.h
-CMakeFiles/tharle.dir/srcs/add_func.c.o: ../includes/libft.h
-CMakeFiles/tharle.dir/srcs/add_func.c.o: ../srcs/add_func.c
+CMakeFiles/tharle.dir/srcs/extra_func_2.c.o: ../includes/fillit.h
+CMakeFiles/tharle.dir/srcs/extra_func_2.c.o: ../includes/get_next_line.h
+CMakeFiles/tharle.dir/srcs/extra_func_2.c.o: ../includes/libft.h
+CMakeFiles/tharle.dir/srcs/extra_func_2.c.o: ../srcs/extra_func_2.c
 
 CMakeFiles/tharle.dir/srcs/get_next_line.c.o: ../includes/get_next_line.h
 CMakeFiles/tharle.dir/srcs/get_next_line.c.o: ../includes/libft.h
@@ -215,13 +210,18 @@ CMakeFiles/tharle.dir/srcs/main.c.o: ../includes/get_next_line.h
 CMakeFiles/tharle.dir/srcs/main.c.o: ../includes/libft.h
 CMakeFiles/tharle.dir/srcs/main.c.o: ../srcs/main.c
 
-CMakeFiles/tharle.dir/srcs/print_map.c.o: ../includes/fillit.h
-CMakeFiles/tharle.dir/srcs/print_map.c.o: ../includes/get_next_line.h
-CMakeFiles/tharle.dir/srcs/print_map.c.o: ../includes/libft.h
-CMakeFiles/tharle.dir/srcs/print_map.c.o: ../srcs/print_map.c
+CMakeFiles/tharle.dir/srcs/map_print.c.o: ../includes/fillit.h
+CMakeFiles/tharle.dir/srcs/map_print.c.o: ../includes/get_next_line.h
+CMakeFiles/tharle.dir/srcs/map_print.c.o: ../includes/libft.h
+CMakeFiles/tharle.dir/srcs/map_print.c.o: ../srcs/map_print.c
 
-CMakeFiles/tharle.dir/srcs/solve_tetris.c.o: ../includes/fillit.h
-CMakeFiles/tharle.dir/srcs/solve_tetris.c.o: ../includes/get_next_line.h
-CMakeFiles/tharle.dir/srcs/solve_tetris.c.o: ../includes/libft.h
-CMakeFiles/tharle.dir/srcs/solve_tetris.c.o: ../srcs/solve_tetris.c
+CMakeFiles/tharle.dir/srcs/tetr_checks.c.o: ../includes/fillit.h
+CMakeFiles/tharle.dir/srcs/tetr_checks.c.o: ../includes/get_next_line.h
+CMakeFiles/tharle.dir/srcs/tetr_checks.c.o: ../includes/libft.h
+CMakeFiles/tharle.dir/srcs/tetr_checks.c.o: ../srcs/tetr_checks.c
+
+CMakeFiles/tharle.dir/srcs/tetr_solve.c.o: ../includes/fillit.h
+CMakeFiles/tharle.dir/srcs/tetr_solve.c.o: ../includes/get_next_line.h
+CMakeFiles/tharle.dir/srcs/tetr_solve.c.o: ../includes/libft.h
+CMakeFiles/tharle.dir/srcs/tetr_solve.c.o: ../srcs/tetr_solve.c
 

@@ -284,13 +284,10 @@
 		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/libft/libft.h">
 			<Option target="tharle"/>
 		</Unit>
-		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/1.c">
+		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_1.c">
 			<Option target="tharle"/>
 		</Unit>
-		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/2.c">
-			<Option target="tharle"/>
-		</Unit>
-		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/add_func.c">
+		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/extra_func_2.c">
 			<Option target="tharle"/>
 		</Unit>
 		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/get_next_line.c">
@@ -299,10 +296,13 @@
 		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/main.c">
 			<Option target="tharle"/>
 		</Unit>
-		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/print_map.c">
+		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/map_print.c">
 			<Option target="tharle"/>
 		</Unit>
-		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/solve_tetris.c">
+		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_checks.c">
+			<Option target="tharle"/>
+		</Unit>
+		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/srcs/tetr_solve.c">
 			<Option target="tharle"/>
 		</Unit>
 		<Unit filename="/home/tharle/Рабочий стол/21/fillit2/CMakeLists.txt">

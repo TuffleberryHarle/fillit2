@@ -12,7 +12,7 @@
 
 #include "fillit.h"
 
-int		conect_check(int *row, int *col, int *num, char **file)
+int		connect_check(unsigned *row, unsigned *col, unsigned *num, char **file)
 {
 	*col = 0;
 	*num = 0;
@@ -41,7 +41,7 @@ int		conect_check(int *row, int *col, int *num, char **file)
 	return (0);
 }
 
-void	create_list(t_list **figures, t_figure *figur)
+void	list_create(t_list **figures, t_figure *figur)
 {
 	t_list		*tmp;
 
@@ -56,7 +56,7 @@ void	create_list(t_list **figures, t_figure *figur)
 	}
 }
 
-void	correct_coord(t_figure *fig, t_list **figures, int *first)
+void	coord_correct(t_figure *fig, t_list **figures, const int *first)
 {
 	int			r;
 
@@ -67,7 +67,7 @@ void	correct_coord(t_figure *fig, t_list **figures, int *first)
 		fig->y[r] = (int)fig->y[r] - (int)first[1];
 		r++;
 	}
-	create_list(figures, fig);
+	list_create(figures, fig);
 }
 
 

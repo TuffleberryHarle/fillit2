@@ -75,10 +75,10 @@ add_executable(tharle
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/libft.h
-        srcs/add_func.c
-        srcs/1.c
-        srcs/2.c
+        srcs/extra_func_2.c
+        srcs/tetr_checks.c
+        srcs/extra_func_1.c
         srcs/get_next_line.c
         srcs/main.c
-        srcs/print_map.c
-        srcs/solve_tetris.c)
+        srcs/map_print.c
+        srcs/tetr_solve.c)

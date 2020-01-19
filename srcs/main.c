@@ -21,8 +21,8 @@ int		main(int ac, char **av)
 	char		**map;
 	t_list		**figures;
 	t_list		*figure;
-	int			fig_num;
-	int			curr;
+	unsigned			fig_num;
+	unsigned			curr;
 	
 	if (!(figures = (t_list**)malloc(sizeof(t_list*))))
 		return (0);
@@ -38,8 +38,8 @@ int		main(int ac, char **av)
 	}
 	figure = *figures;
 	curr = fig_num;
-	map = solve_tetris(figure, curr);
-	print_map(map);
-	clear_map(map);
-	clear_list(figures);
+	map = tetr_solve(figure, curr);
+	map_print(map);
+	map_clear(map);
+	list_clear(figures);
 }
