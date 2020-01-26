@@ -36,6 +36,26 @@ string.h
 stdlib.h
 -
 
+/home/tharle/Рабочий стол/21/fillit3/srcs/extra_func_1.c
+fillit.h
+/home/tharle/Рабочий стол/21/fillit3/srcs/fillit.h
+
+/home/tharle/Рабочий стол/21/fillit3/srcs/extra_func_2.c
+fillit.h
+/home/tharle/Рабочий стол/21/fillit3/srcs/fillit.h
+
+/home/tharle/Рабочий стол/21/fillit3/srcs/main.c
+fillit.h
+/home/tharle/Рабочий стол/21/fillit3/srcs/fillit.h
+
+/home/tharle/Рабочий стол/21/fillit3/srcs/map_print.c
+fillit.h
+/home/tharle/Рабочий стол/21/fillit3/srcs/fillit.h
+
+/home/tharle/Рабочий стол/21/fillit3/srcs/tetr_checks.c
+fillit.h
+/home/tharle/Рабочий стол/21/fillit3/srcs/fillit.h
+
 /home/tharle/Рабочий стол/21/fillit3/srcs/tetr_solve.c
 fillit.h
 /home/tharle/Рабочий стол/21/fillit3/srcs/fillit.h

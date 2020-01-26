@@ -15,15 +15,15 @@
 t_list	*ext_tmp;
 char	**ext_map;
 char	*ext_letter;
-int		ext_i;
-int		ext_x;
-int		ext_y;
+unsigned		ext_i;
+unsigned		ext_x;
+unsigned		ext_y;
 unsigned		ext_curr;
 unsigned		ext_total;
 
 void	square_expand(void)
 {
-	int		i;
+	unsigned		i;
 
 	i = 0;
 	if (ext_x >= (ext_total - 1) && ext_y >= (ext_total - 1) && ext_curr == 0)
@@ -46,7 +46,7 @@ void	figure_check(t_list *figures)
 {
 	if (ext_i != 4)
 	{
-		clear(ext_total, ext_map, ext_letter[ext_curr]);
+		clear_to_expand(ext_total, ext_map, ext_letter[ext_curr]);
 		ext_x++;
 	}
 	else
@@ -106,7 +106,7 @@ void	next_dot(t_list *figures)
 				ext_y++;
 			}
 		}
-		clear(ext_total, ext_map, ext_letter[ext_curr]);
+		clear_to_expand(ext_total, ext_map, ext_letter[ext_curr]);
 		ext_tmp = get_item(figures, ext_curr);
 		ext_x += 1 - ((int*)((t_figure*)ext_tmp->content)->x)[0];
 	}

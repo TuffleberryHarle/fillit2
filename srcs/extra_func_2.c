@@ -12,7 +12,7 @@
 
 #include "fillit.h"
 
-void	clear(int total, char **map, char c)
+void	clear_to_expand(unsigned int total, char **map, char c)
 {
 	int x;
 	int y;
@@ -32,7 +32,7 @@ void	clear(int total, char **map, char c)
 	}
 }
 
-t_list	*get_item(t_list *figures, int current_item)
+t_list	*get_item(t_list *figures, unsigned int current_item)
 {
 	t_list	*tmp;
 	int		i;

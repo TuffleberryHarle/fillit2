@@ -25,8 +25,8 @@ typedef struct	s_figure
 
 char			**dots_set(unsigned total);
 unsigned				get_start_total(unsigned count);
-t_list			*get_item(t_list *figures, int current_item);
-void			clear(int total, char **map, char c);
+t_list			*get_item(t_list *figures, unsigned int current_item);
+void			clear_to_expand(unsigned int total, char **map, char c);
 char			**tetr_solve(t_list *figures, unsigned count);
 void			map_print(char **map);
 void			map_clear(char **map);

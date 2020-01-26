@@ -78,6 +78,7 @@ int		tetr_check2(char **figure, t_list **figures, unsigned *fig_num, unsigned *i
 			return (0);
 		*i = 0;
 		tetr_array(figure, fig, first, &ext_k);
+
 		coord_correct(fig, figures, first);
 		(*fig_num)++;
 		while (*i < 4)
